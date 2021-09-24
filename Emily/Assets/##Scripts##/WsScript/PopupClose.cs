@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class PopupClose : MonoBehaviour
 {
-    public void CloseButtonDown() => gameObject.SetActive(false);
+    [SerializeField] private GameObject target;
+    public void CloseButtonDown() => target.SetActive(false);
 }
