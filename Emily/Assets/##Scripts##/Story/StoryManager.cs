@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StoryManager : Singleton<StoryManager> {
+public class StoryManager : MonoBehaviour {
     [SerializeField]
     private StoryScriptableObject currentStory;
 
@@ -12,6 +12,9 @@ public class StoryManager : Singleton<StoryManager> {
 
     [SerializeField]
     private GameObject objTalkPanel = null;
+
+    [SerializeField] 
+    private Image img = null;
 
     [SerializeField]
     private Text txtSpeaker = null;
@@ -25,10 +28,11 @@ public class StoryManager : Singleton<StoryManager> {
     /// <summary>
     /// 주어진 panel을 현재 활성화된 panel로 설정한다
     /// </summary>
-    public void SetUI(TalkPanel panel)
+    public void SetUI(StoryPanel panel)
     {
         objTalkPanel = panel.gameObject;
 
+        img = panel.img;
         txtSpeaker = panel.txtSpeaker;
         txtContent = panel.txtContent;
         btnNext = panel.btnNext;
@@ -77,5 +81,18 @@ public class StoryManager : Singleton<StoryManager> {
         var text = GetCurrentText();
         txtSpeaker.text = text.Speaker;
         txtContent.text = text.Content;
+
+        if (img.sprite != text.Image)
+        {
+            img.sprite = text.Image;
+            if (img.sprite == null && img.gameObject.activeSelf)
+            {
+                img.gameObject.SetActive(false);
+            } 
+            else if (img.sprite != null && !img.gameObject.activeSelf)
+            {
+                img.gameObject.SetActive(true);
+            }
+        }
     }
 }

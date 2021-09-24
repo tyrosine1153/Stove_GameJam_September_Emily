@@ -19,6 +19,8 @@ public class StoryScriptableObject : ScriptableObject {
         /// 내용
         /// </summary>
         public string Content;
+
+        public Sprite Image;
     }
 
     public Text[] Texts;

@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TalkPanel : MonoBehaviour
+public class StoryPanel : MonoBehaviour
 {
+    public Image img;
+
     public Text txtSpeaker;
 
     public Text txtContent;
@@ -13,12 +15,12 @@ public class TalkPanel : MonoBehaviour
 
     public void Awake()
     {
-        StoryManager.instance.SetUI(this);
+        UIManager.instance.SetUI(this);
         gameObject.SetActive(false);
     }
 
     public void ShowNextText()
     {
-        StoryManager.instance.ShowNextText();
+        UIManager.instance.ShowNextText();
     }
 }
