@@ -1,4 +1,3 @@
-﻿Speaker,Content
-Actor  1,First
-B,Second
-C,Third
+﻿Speaker,Content,Image
+에밀리,이걸로 사람을 찌르면 죽을까?,Assets/Resources/Sprites/evidence_1_detail.png
+에밀리,뭔 생각을 하는거지. **정말** 멍청한 생각이다.,Assets/Resources/Sprites/evidence_1_detail.png
