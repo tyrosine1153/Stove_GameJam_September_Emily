@@ -28,7 +28,7 @@ public class StoryScriptableObject : ScriptableObject {
 public class TextScriptableObjectPostprocessor : AssetPostprocessor {
     static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths) {
         foreach (string str in importedAssets) {
-            if (str.IndexOf("/story_1.csv") != -1) {
+            if (str.IndexOf("_story.csv") != -1) {
                 TextAsset data = AssetDatabase.LoadAssetAtPath<TextAsset>(str);
                 string assetfile = str.Replace(".csv", ".asset");
                 StoryScriptableObject gm = AssetDatabase.LoadAssetAtPath<StoryScriptableObject>(assetfile);
