@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StoryManager : Singleton<StoryManager> {
+public class StoryManager : MonoBehaviour {
     [SerializeField]
     private StoryScriptableObject currentStory;
 
