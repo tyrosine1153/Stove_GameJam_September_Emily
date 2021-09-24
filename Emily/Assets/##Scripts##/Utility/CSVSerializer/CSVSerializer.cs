@@ -108,6 +108,11 @@ public class CSVSerializer
         {
             Sprite sprite = AssetDatabase.LoadAssetAtPath<Sprite>(value.ToString());
             fieldinfo.SetValue(v, sprite);
+        } 
+        else if (fieldinfo.FieldType == typeof(StoryScriptableObject))
+        {
+            var story = AssetDatabase.LoadAssetAtPath<StoryScriptableObject>(value.ToString());
+            fieldinfo.SetValue(v, story);
         }
 #endif
         else if (fieldinfo.FieldType == typeof(string))
