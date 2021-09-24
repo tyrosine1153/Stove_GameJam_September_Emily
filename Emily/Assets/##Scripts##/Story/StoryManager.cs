@@ -25,7 +25,7 @@ public class StoryManager : Singleton<StoryManager> {
     /// <summary>
     /// 주어진 panel을 현재 활성화된 panel로 설정한다
     /// </summary>
-    public void SetUI(TalkPanel panel)
+    public void SetUI(StoryPanel panel)
     {
         objTalkPanel = panel.gameObject;
 
