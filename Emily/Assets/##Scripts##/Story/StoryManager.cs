@@ -85,14 +85,12 @@ public class StoryManager : MonoBehaviour {
         if (img.sprite != text.Image)
         {
             img.sprite = text.Image;
-            if (img.sprite == null && img.gameObject.activeSelf)
-            {
-                img.gameObject.SetActive(false);
-            } 
-            else if (img.sprite != null && !img.gameObject.activeSelf)
-            {
-                img.gameObject.SetActive(true);
-            }
+        }
+
+        if (img.sprite == null && img.gameObject.activeSelf) {
+            img.gameObject.SetActive(false);
+        } else if (img.sprite != null && !img.gameObject.activeSelf) {
+            img.gameObject.SetActive(true);
         }
     }
 }
