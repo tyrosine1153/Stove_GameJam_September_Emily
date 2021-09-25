@@ -5,6 +5,7 @@ using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.UI;
 using Debug = UnityEngine.Debug;
+using Random = System.Random;
 
 public class StoryManager : MonoBehaviour
 {
@@ -29,6 +30,7 @@ public class StoryManager : MonoBehaviour
     private PrologEndingStory prologEndingStory;
     private bool isProlog;
     private bool isEnding;
+    private Random random;
 
     /// <summary>
     /// 주어진 panel을 현재 활성화된 panel로 설정한다
@@ -127,7 +129,21 @@ public class StoryManager : MonoBehaviour
 
         var text = GetCurrentText();
         txtSpeaker.text = text.Speaker;
-        txtContent.text = text.Content;
+
+        Debug.Log("Show Story");
+        if (text.Content.Length == 0)
+        {
+            txtContent.text = "";
+        }
+        else if (text.Content.Length < 1)
+        {
+            txtContent.text = text.Content[0];
+        }
+        else
+        {
+            var index = random.Next(0, text.Content.Length);
+            txtContent.text = text.Content[index];
+        }
 
         if (img.sprite != text.Image)
         {
@@ -169,5 +185,10 @@ public class StoryManager : MonoBehaviour
         {
             rightCharacterImg.gameObject.SetActive(false);
         }
+    }
+
+    private void Start()
+    {
+        random = new Random();
     }
 }

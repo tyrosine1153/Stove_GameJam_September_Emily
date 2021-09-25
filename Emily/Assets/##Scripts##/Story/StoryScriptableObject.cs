@@ -35,8 +35,9 @@ public class StoryScriptableObject : ScriptableObject
 
         /// <summary>
         /// 내용
+        /// 1개 이상일 경우 랜덤하게 설정된다
         /// </summary>
-        public string Content;
+        public string[] Content;
 
         public Sprite Image;
         
