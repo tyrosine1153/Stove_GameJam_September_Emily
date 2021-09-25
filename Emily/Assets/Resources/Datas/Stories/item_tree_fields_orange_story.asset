@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Texts:
   - Speaker: "\uAF2C\uB9C8 \uD0D0\uC815 \uC5D0\uBC00\uB9AC"
-    Content: "\uB35C \uC775\uC740 \uC5F4\uB9E4\uC57C\u2026 \uADF8\uB0E5 \uB0C5\uB450\uC790"
+    Content:
+    - "\uB35C \uC775\uC740 \uC5F4\uB9E4\uC57C\u2026 \uADF8\uB0E5 \uB0C5\uB450\uC790"
     Image: {fileID: 0}
     Place: 0
     LeftCharacter: 0

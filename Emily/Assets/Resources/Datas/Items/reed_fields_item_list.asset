@@ -16,7 +16,7 @@ MonoBehaviour:
   - Id: item_reed_fields_scissor
     Name: "\uD654\uB2E8 \uAC00\uC704"
     Sprite: {fileID: 21300000, guid: e1b6860d42f27b34492f58503896608f, type: 3}
-    Story: {fileID: 0}
+    Story: {fileID: 11400000, guid: 78b116458a44cfa4d8077d84fd7ba044, type: 2}
     visibleWhenStart: 1
   - Id: item_reed_fields_perfect_reed
     Name: "\uAC80\uC740 \uAC08\uB300"
@@ -31,15 +31,15 @@ MonoBehaviour:
   - Id: item_reed_fields_evidence_hat
     Name: "\uBE68\uAC04 \uBAA8\uC790"
     Sprite: {fileID: 21300000, guid: 6b50dd2ef83b8784c95335f1ac231ddf, type: 3}
-    Story: {fileID: 0}
+    Story: {fileID: 11400000, guid: d0a482b974aa78a4abd9a98f9e4dd11b, type: 2}
     visibleWhenStart: 0
   - Id: item_reed_fields_evidence_meat
     Name: "\uACE0\uAE30 \uB369\uC5B4\uB9AC"
     Sprite: {fileID: 0}
-    Story: {fileID: 0}
+    Story: {fileID: 11400000, guid: 5e29d7c38e20d31478ef4d97ee12efe4, type: 2}
     visibleWhenStart: 0
   - Id: item_reed_fields_evidence_eyes
     Name: "\uB291\uB300 \uAC08\uB300"
     Sprite: {fileID: 21300000, guid: fec2852b21441aa42aa61c5cc1e94afd, type: 3}
-    Story: {fileID: 0}
+    Story: {fileID: 11400000, guid: f038c63318f2bd043a605aa214731aba, type: 2}
     visibleWhenStart: 1

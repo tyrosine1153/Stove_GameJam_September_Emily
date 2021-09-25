@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Texts:
   - Speaker: "\uAF2C\uB9C8 \uD0D0\uC815 \uC5D0\uBC00\uB9AC"
-    Content: "\uC6B0\uB9AC \uC5C4\uB9C8\uAC00 \uC88B\uC544\uD558\uB294 \uBE68\uAC04
-      \uBAA8\uC790\uB124! \uBC94\uC778\uC774 \uBC94\uD589 \uB2F9\uC2DC \uC37C\uB358\uAC78\uAE4C?"
+    Content:
+    - "\uC6B0\uB9AC \uC5C4\uB9C8\uAC00 \uC88B\uC544\uD558\uB294 \uBE68\uAC04 \uBAA8\uC790\uB124!
+      \uBC94\uC778\uC774 \uBC94\uD589 \uB2F9\uC2DC \uC37C\uB358\uAC78\uAE4C?"
     Image: {fileID: 21300000, guid: 6b50dd2ef83b8784c95335f1ac231ddf, type: 3}
     Place: 0
     LeftCharacter: 0
