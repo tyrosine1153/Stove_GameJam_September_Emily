@@ -16,6 +16,8 @@ public class InventoryPanel : MonoBehaviour
         {
             slot.SetItem(null);
         }
+
+        OnItemAdded(null);
     }
 
     void OnItemAdded(Item item)
