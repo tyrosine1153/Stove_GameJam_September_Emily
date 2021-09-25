@@ -1,0 +1,5 @@
+﻿Id,Name,Sprite,Story,visibleWhenStart
+reed_field_item_scissor,가위,,,TRUE
+reed_field_item_black_reed,검은 갈대,,,TRUE
+reed_field_item_cutted_black_reed,잘려진 검은 갈대,,,FALSE
+reed_field_item_red_hat,빨간 모자,Assets/Resources/Sprites/reed_field/갈대밭_증거_빨간모자.png,Assets/Resources/Datas/Stories/unknown_item_story.asset,FALSE
