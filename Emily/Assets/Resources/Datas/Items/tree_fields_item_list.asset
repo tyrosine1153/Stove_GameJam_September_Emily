@@ -40,11 +40,11 @@ MonoBehaviour:
     visibleWhenStart: 0
   - Id: item_reed_fields_umbrella
     Name: "\uC6B0\uC0B0"
-    Sprite: {fileID: 21300000, guid: ccafb0e17d70ed648a58db1ba459646a, type: 3}
+    Sprite: {fileID: 0}
     Story: {fileID: 11400000, guid: a5410b25e80bc534286cfe724f201a20, type: 2}
     visibleWhenStart: 1
   - Id: item_reed_fields_evidence_ripped_umbrella
     Name: "\uD3BC\uCCD0\uC9C4 \uC6B0\uC0B0"
-    Sprite: {fileID: 21300000, guid: 03e01639170dee948af9be56faf270e8, type: 3}
+    Sprite: {fileID: 21300000, guid: ccafb0e17d70ed648a58db1ba459646a, type: 3}
     Story: {fileID: 11400000, guid: dddca2d8351c5034383bb8675fa0c976, type: 2}
     visibleWhenStart: 0

@@ -16,15 +16,6 @@ public class StoryScriptableObject : ScriptableObject
         ReedField
     }
 
-    public enum Character
-    {
-        None = 0,
-        Emily,
-        Rose,
-        RedWoman,
-        Gardener
-    }
-    
     [Serializable]
     public class Text
     {
@@ -42,8 +33,8 @@ public class StoryScriptableObject : ScriptableObject
         public Sprite Image;
         
         public Place Place;
-        public Character LeftCharacter;
-        public Character RightCharacter;
+        public Sprite LeftCharacter;
+        public Sprite RightCharacter;
     }
 
     public Text[] Texts;

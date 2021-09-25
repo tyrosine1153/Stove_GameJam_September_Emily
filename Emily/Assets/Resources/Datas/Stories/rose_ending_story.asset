@@ -19,45 +19,45 @@ MonoBehaviour:
       \uB300\uC800\uD0DD\uC774\uC5D0\uC694.. \uBE68\uB9AC\u2026  \uBE68\uB9AC \uC640\uC8FC\uC138\uC694\u2026."
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 1
-    RightCharacter: 0
+    LeftCharacter: {fileID: 21300000, guid: 8326a0a9e2985ab4cba9827c557b5974, type: 3}
+    RightCharacter: {fileID: 0}
   - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
     Content:
     - "\uC5D0\uBC00\uB9AC!!! \uC5D0\uBC00\uB9AC!!!!!!!! \uC774\uB9AC\uC640 \uAC70\uAE30\uC11C!!!!"
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 0
-    RightCharacter: 2
+    LeftCharacter: {fileID: 0}
+    RightCharacter: {fileID: 21300000, guid: dec202512a97ecb4399e6da2f5bd1c36, type: 3}
   - Speaker: "\uAF2C\uB9C8 \uD0D0\uC815 \uC5D0\uBC00\uB9AC"
     Content:
     - "\uAE84\uC544\uC544\uC544\uC545!!!!!!"
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 1
-    RightCharacter: 0
+    LeftCharacter: {fileID: 0}
+    RightCharacter: {fileID: 0}
   - Speaker: "\uD615\uC0AC1"
     Content:
     - "\uC544\uC774\uB294 \uBCD1\uC6D0\uC73C\uB85C \uC798 \uC774\uB3D9\uD588\uC9C0?"
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 0
-    RightCharacter: 0
+    LeftCharacter: {fileID: 21300000, guid: 6f796259a91c81344b746c9f835bf1b0, type: 3}
+    RightCharacter: {fileID: 0}
   - Speaker: "\uD615\uC0AC2"
     Content:
     - "\uADF8\uB798. \uC870\uAE08\uB9CC \uB354 \uB2A6\uC5C8\uC73C\uBA74 \uC544\uC774\uAC00
       \uC815\uB9D0 \uC704\uD5D8\uD560 \uBED4 \uD588\uC5B4. \uC5EC\uAE34 \uB610 \uBB54\uB370?"
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 0
-    RightCharacter: 0
+    LeftCharacter: {fileID: 0}
+    RightCharacter: {fileID: 21300000, guid: 917506f8de1ff054fa9a1f811a5de9fa, type: 3}
   - Speaker: "\uD615\uC0AC1"
     Content:
     - "\uC544\uC774\uC758 \uC544\uBE60 \uC874. \uD615\uCCB4\uB97C \uC54C\uC544\uBCFC
       \uC218 \uC5C6\uC744 \uC815\uB3C4\uC57C."
     Image: {fileID: 21300000, guid: 74a81b9cf208ec042b57a093de95dc3c, type: 3}
     Place: 3
-    LeftCharacter: 0
-    RightCharacter: 0
+    LeftCharacter: {fileID: 21300000, guid: 6f796259a91c81344b746c9f835bf1b0, type: 3}
+    RightCharacter: {fileID: 0}
   - Speaker: "\uD615\uC0AC2"
     Content:
     - "\uC790\uC2E0\uC758 \uB0A8\uD3B8\uC744 \uC774\uB807\uAC8C \uC0B4\uD574\uD558\uB2E4\uB2C8.
@@ -65,8 +65,8 @@ MonoBehaviour:
       \uB2E4\uD589\uC774\uC57C."
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 0
-    RightCharacter: 0
+    LeftCharacter: {fileID: 0}
+    RightCharacter: {fileID: 21300000, guid: 917506f8de1ff054fa9a1f811a5de9fa, type: 3}
   - Speaker: "\uD615\uC0AC1"
     Content:
     - "\uC5B4\uB9B4\uC801\uBD80\uD130 \uAC00\uC871\uB4E4\uC5D0\uAC8C \uD3ED\uD589\uC744
@@ -75,16 +75,16 @@ MonoBehaviour:
       \uB300\uD55C \uC774\uC0C1\uD55C \uC9D1\uCC29\uC774 \uC0DD\uAE34 \uAC83 \uAC19\uC544."
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 0
-    RightCharacter: 0
+    LeftCharacter: {fileID: 21300000, guid: 6f796259a91c81344b746c9f835bf1b0, type: 3}
+    RightCharacter: {fileID: 0}
   - Speaker: "\uD615\uC0AC2"
     Content:
     - "\uC774 \uC800\uD0DD\uC758 \uC628\uC804\uD55C \uC8FC\uC778\uC774 \uB418\uACE0
       \uC2F6\uC5C8\uB358\uAC00..?"
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 0
-    RightCharacter: 0
+    LeftCharacter: {fileID: 0}
+    RightCharacter: {fileID: 21300000, guid: 917506f8de1ff054fa9a1f811a5de9fa, type: 3}
   - Speaker: "\uD615\uC0AC1"
     Content:
     - "\uAE00\uC384\u2026 \uC774\uAC74 \uC874\uC758 \uC2DC\uCCB4 \uC606\uC5D0\uC11C
@@ -92,8 +92,8 @@ MonoBehaviour:
       \uC815\uB9D0 \uC8FD\uC77C \uC0DD\uAC01\uC774\uC5C8\uB358 \uAC83 \uAC19\uAD70."
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 0
-    RightCharacter: 0
+    LeftCharacter: {fileID: 21300000, guid: 6f796259a91c81344b746c9f835bf1b0, type: 3}
+    RightCharacter: {fileID: 0}
   - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
     Content:
     - "\uC5D0\uBC00\uB9AC. \uC5C4\uB9C8\uC640\uC758 \uD0D0\uC815 \uB180\uC774\uAC00
@@ -103,8 +103,8 @@ MonoBehaviour:
       \uC2EB\uC5B4."
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 2
-    RightCharacter: 0
+    LeftCharacter: {fileID: 0}
+    RightCharacter: {fileID: 0}
   - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
     Content:
     - "\uD558\uC9C0\uB9CC"
@@ -116,15 +116,15 @@ MonoBehaviour:
       \uC5C4\uB9C8\uAC00\u2026"
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 2
-    RightCharacter: 0
+    LeftCharacter: {fileID: 0}
+    RightCharacter: {fileID: 0}
   - Speaker: "\uD615\uC0AC2"
     Content:
     - "\uC774\uAC8C \uB3C4\uB300\uCCB4 \uBB54 \uC18C\uB9AC\uC57C\u2026"
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 0
-    RightCharacter: 0
+    LeftCharacter: {fileID: 0}
+    RightCharacter: {fileID: 21300000, guid: 917506f8de1ff054fa9a1f811a5de9fa, type: 3}
   - Speaker: "\uD615\uC0AC1"
     Content:
     - "\uC81C\uC815\uC2E0\uC774 \uC544\uB2C8\uC57C"
@@ -132,5 +132,5 @@ MonoBehaviour:
       \uC628\uD1B5 \uBD89\uAC8C \uBB3C\uB4E4\uC9C0 \uC54A\uC544 \uB2E4\uD589\uC774\uAD70\u2026"
     Image: {fileID: 0}
     Place: 3
-    LeftCharacter: 0
-    RightCharacter: 0
+    LeftCharacter: {fileID: 21300000, guid: 6f796259a91c81344b746c9f835bf1b0, type: 3}
+    RightCharacter: {fileID: 0}

@@ -8,6 +8,11 @@ public class UIManager : Singleton<UIManager>
 {
     private StoryManager storyManager;
 
+    public bool IsStoryShowing
+    {
+        get { return storyManager.IsStoryShowing; }
+    }
+
     public void ShowStory(StoryScriptableObject story)
     {
         storyManager.ShowStory(story);

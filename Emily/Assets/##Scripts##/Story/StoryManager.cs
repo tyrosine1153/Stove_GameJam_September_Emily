@@ -33,6 +33,13 @@ public class StoryManager : MonoBehaviour
     private Random random;
     private Action actionAfterStoryDone = null;
 
+    private bool isStoryShowing  = false;
+
+    public bool IsStoryShowing
+    {
+        get { return isStoryShowing; }
+    }
+
     /// <summary>
     /// 주어진 panel을 현재 활성화된 panel로 설정한다
     /// </summary>
@@ -45,14 +52,14 @@ public class StoryManager : MonoBehaviour
         txtContent = panel.txtContent;
         btnNext = panel.btnNext;
 
+        isStoryShowing = false;
+
         placeImg = panel.placeImg;
         leftCharacterImg = panel.leftCharacterImg;
         rightCharacterImg = panel.rightCharacterImg;
 
         placeSprites = panel.placeSprites;
-        characterSprites = panel.characterSprites;
 
-        
         try
         {
             prologEndingStory = GameObject.Find("Prolog/EndingStory").GetComponent<PrologEndingStory>();
@@ -82,6 +89,7 @@ public class StoryManager : MonoBehaviour
         currentStory = story;
         currentTextIndex = 0;
         actionAfterStoryDone = null;
+        isStoryShowing = true;
 
         ShowCurrentStoryText();
     }
@@ -90,6 +98,7 @@ public class StoryManager : MonoBehaviour
         currentStory = story;
         currentTextIndex = 0;
         actionAfterStoryDone = action;
+        isStoryShowing = true;
 
         ShowCurrentStoryText();
     }
@@ -119,6 +128,7 @@ public class StoryManager : MonoBehaviour
                         actionAfterStoryDone.Invoke();
                     }
                     objTalkPanel.SetActive(false);
+                    isStoryShowing = false;
                 }
             }
 
@@ -161,6 +171,7 @@ public class StoryManager : MonoBehaviour
         if (img.sprite != text.Image)
         {
             img.sprite = text.Image;
+            img.preserveAspect = true;
         }
 
         if (img.sprite == null && img.gameObject.activeSelf)
@@ -179,24 +190,30 @@ public class StoryManager : MonoBehaviour
         }
         
         // 대사하는 인물
-        if (text.LeftCharacter != StoryScriptableObject.Character.None)
+        if (leftCharacterImg.sprite != text.LeftCharacter)
         {
-            leftCharacterImg.gameObject.SetActive(true);
-            leftCharacterImg.sprite = characterSprites[(int)text.LeftCharacter - 1];
+            leftCharacterImg.sprite = text.LeftCharacter;
         }
-        else
+        if (leftCharacterImg.sprite == null && leftCharacterImg.gameObject.activeSelf)
         {
             leftCharacterImg.gameObject.SetActive(false);
         }
-        
-        if (text.RightCharacter != StoryScriptableObject.Character.None)
+        else if (leftCharacterImg.sprite != null && !leftCharacterImg.gameObject.activeSelf)
         {
-            rightCharacterImg.gameObject.SetActive(true);
-            rightCharacterImg.sprite = characterSprites[(int)text.RightCharacter - 1];
+            leftCharacterImg.gameObject.SetActive(true);
         }
-        else
+        
+        if (rightCharacterImg.sprite != text.RightCharacter)
+        {
+            rightCharacterImg.sprite = text.RightCharacter;
+        }
+        if (rightCharacterImg.sprite == null && rightCharacterImg.gameObject.activeSelf)
         {
             rightCharacterImg.gameObject.SetActive(false);
+        }
+        else if (rightCharacterImg.sprite != null && !rightCharacterImg.gameObject.activeSelf)
+        {
+            rightCharacterImg.gameObject.SetActive(true);
         }
     }
 

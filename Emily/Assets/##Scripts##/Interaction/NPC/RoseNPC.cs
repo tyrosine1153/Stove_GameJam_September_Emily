@@ -20,7 +20,7 @@ public class RoseNPC : WorldNpc
     {
         if (InventoryManager.instance.Items.Count < EvidenceCount)
         {
-            if (story)
+            if (story && !UIManager.instance.IsStoryShowing)
             {
                 UIManager.instance.ShowStory(story);
             }

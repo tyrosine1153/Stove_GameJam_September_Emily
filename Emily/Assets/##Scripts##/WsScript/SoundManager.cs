@@ -6,8 +6,11 @@ namespace ws
 {
     public enum SoundName
     {
-        testBgm = 0,
-        buttonDown = 1
+        mainBGM = 0,
+        buttonDown = 1,
+        effectSound = 2,
+        ending = 3,
+        suspect = 4
     }
 
     public class SoundManager : Singleton<SoundManager>
@@ -18,8 +21,12 @@ namespace ws
         [SerializeField] private List<AudioClip> audioClips = new List<AudioClip>();
         [SerializeField] private string[] audioClipsPath = 
             {
-                "Sounds\\TestBGM",
-                "Sounds\\ButtonDown"
+                "Sounds\\Main",
+                "Sounds\\ButtonDown",
+                "Sounds\\Effect",
+                "Sounds\\Ending",
+                "Sounds\\Suspect",
+
             };
 
         protected override void Awake()
@@ -39,6 +46,7 @@ namespace ws
             effectAudioSource.playOnAwake = false;
             effectAudioSource.loop = false;
 
+            base.Awake();
         }
 
         private void Start()
