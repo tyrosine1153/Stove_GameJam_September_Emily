@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c7dba07be3c34b82221f5cfa01cd9, type: 3}
+  m_Name: dress_ending_story
+  m_EditorClassIdentifier: 
+  Texts:
+  - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
+    Content: "\uC5D0\uBC00\uB9AC, \uC218\uACE0\uD588\uAD6C\uB098."
+    Image: {fileID: 0}
+    Place: 1
+    LeftCharacter: 0
+    RightCharacter: 2
+  - Speaker: "\uAF2C\uB9C8 \uD0D0\uC815 \uC5D0\uBC00\uB9AC"
+    Content: "\uAC70\uBD10\uC694~ \uC81C\uAC00 \uAC71\uC815\uB9D0\uB77C\uACE0 \uD588\uC8E0!?"
+    Image: {fileID: 0}
+    Place: 1
+    LeftCharacter: 1
+    RightCharacter: 0
+  - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
+    Content: "\uADF8\uB798. \uC774\uC820 \uB124\uAC00 \uB098\uB97C \uC9C0\uCF1C\uC904
+      \uC218 \uC788\uACA0\uAD6C\uB098."
+    Image: {fileID: 0}
+    Place: 1
+    LeftCharacter: 0
+    RightCharacter: 2
+  - Speaker: "\uAF2C\uB9C8 \uD0D0\uC815 \uC5D0\uBC00\uB9AC"
+    Content: "\uADF8\uB7FC\uC694!! \uC800\uB294 \uD0D0\uC815 \uC5D0\uBC00\uB9AC\uC796\uC544\uC694!"
+    Image: {fileID: 0}
+    Place: 1
+    LeftCharacter: 1
+    RightCharacter: 0
+  - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
+    Content: "\uC790\uB9CC\uD558\uC9C0 \uB9C8\uB834.  \uC0AC\uAC74\uC758 \uC804\uB9D0\uC740
+      \uC774\uB7EC\uD574, \uBD89\uC740 \uB4DC\uB808\uC2A4 \uC5EC\uC778\uC740 \uB298
+      \uBD89\uC740\uC0C9\uC744 \uB3D9\uACBD\uD574\uC654\uC5B4. \uADF8\uB140\uB294
+      \uAC00\uC9C8 \uC218 \uC5C6\uB294 \uBD80\uC758 \uC0C1\uC9D5\uC774\uC5C8\uAE30
+      \uB54C\uBB38\uC774\uC57C."
+    Image: {fileID: 0}
+    Place: 1
+    LeftCharacter: 0
+    RightCharacter: 2
+  - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
+    Content: "\uAC70\uB9AC\uC758 \uBD89\uC740 \uAF43\uC744 \uAEBE\uC5B4 \uC637\uC744
+      \uC7A5\uC2DD\uD574\uB3C4, \uAF43\uC740 \uB298 \uAE08\uBC29 \uC2DC\uB4E4\uAE30
+      \uB9C8\uB828\uC774\uC5C8\uC9C0. \uADF8\uB807\uAC8C \uADF8\uB140\uC758 \uB9C8\uC74C\uB3C4
+      \uC870\uAE08\uC529 \uC2DC\uB4E4\uC5B4 \uAC14\uB358\uAC70\uC57C."
+    Image: {fileID: 0}
+    Place: 1
+    LeftCharacter: 0
+    RightCharacter: 2
+  - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
+    Content: "\uC2DC\uB4E0 \uADF8\uB140\uC758 \uB9C8\uC74C\uC740 \uADF8 \uB204\uAD6C\uB3C4
+      \uB2EC\uB798\uC904 \uC218 \uC5C6\uC5C8\uACE0, \uC601\uC6D0\uD788 \uBD89\uAC8C
+      \uD53C\uC5B4\uC788\uB294 \uC774 \uC800\uD0DD\uC5D0 \uB298 \uBC1C\uC744 \uB2F4\uADF8\uACE0
+      \uC2F6\uC5C8\uB358\uAC70\uC9C0. \uADF8\uB7F0 \uADF8\uB140\uB97C \uAD00\uB9AC\uC778
+      \uD558\uBC84\uB294 \uB298 \uACBD\uACC4\uD588\uACE0, \uD558\uBC84\uB9CC \uC5C6\uC560\uBA74
+      \uC774 \uC800\uD0DD\uC744 \uAC00\uC9C8 \uC218 \uC788\uC744\uAC70\uB77C \uBBFF\uC5C8\uB358\uAC70\uC57C."
+    Image: {fileID: 0}
+    Place: 1
+    LeftCharacter: 0
+    RightCharacter: 2
+  - Speaker: "\uAF2C\uB9C8 \uD0D0\uC815 \uC5D0\uBC00\uB9AC"
+    Content: "\uD558\uC9C0\uB9CC \uC774 \uC800\uD0DD\uB3C4 \uC5B8\uC820\uAC04 \uD5C8\uBB3C\uACE0,
+      \uC0C9\uB3C4 \uC810\uC810 \uBC14\uB77C\uAC8C \uB420\uD150\uB370\uC694\u2026
+      \uADF8\uB7FC \uADF8\uB140\uAC00 \uC785\uACE0 \uC788\uB358 \uADF8 \uB4DC\uB808\uC2A4\uB294
+      \uB204\uAC00 \uC900\uAC78\uAE4C\uC694?"
+    Image: {fileID: 0}
+    Place: 1
+    LeftCharacter: 1
+    RightCharacter: 0
+  - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
+    Content: "\uC5D0\uBC00\uB9AC. \uC774\uC81C \uADF8\uB9CC \uB3CC\uC544\uAC00 \uC26C\uC790\uAD6C\uB098."
+    Image: {fileID: 0}
+    Place: 1
+    LeftCharacter: 0
+    RightCharacter: 2
+  - Speaker: "\uAF2C\uB9C8 \uD0D0\uC815 \uC5D0\uBC00\uB9AC"
+    Content: "\uC5D0\uC774\u2026 \uC774\uC81C \uB354 \uC81C \uC77C\uC5D0 \uC0AC\uBA85\uAC10\uC744
+      \uAC16\uACE0 \uBE60\uB974\uACE0! \uC815\uD655\uD55C! \uCD94\uB9AC\uB97C \uD574\uB0BC
+      \uC218 \uC788\uC744 \uAC83 \uAC19\uC740\uB370\uC694!? \uB2E4\uB978 \uC0AC\uAC74\uC740
+      \uC5C6\uB098\uC694??"
+    Image: {fileID: 0}
+    Place: 1
+    LeftCharacter: 1
+    RightCharacter: 0
+  - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
+    Content: "\uC5D0\uBC00\uB9AC \uBE68\uB9AC \uC624\uB834."
+    Image: {fileID: 0}
+    Place: 1
+    LeftCharacter: 0
+    RightCharacter: 2
+  - Speaker: "\uAF2C\uB9C8 \uD0D0\uC815 \uC5D0\uBC00\uB9AC"
+    Content: "\uC5C4\uB9C8 \uAC19\uC774\uAC00\uC694!!!"
+    Image: {fileID: 0}
+    Place: 1
+    LeftCharacter: 1
+    RightCharacter: 0
