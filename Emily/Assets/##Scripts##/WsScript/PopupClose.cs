@@ -7,6 +7,10 @@ namespace ws
     public class PopupClose : MonoBehaviour
     {
         [SerializeField] private GameObject target;
-        public void CloseButtonDown() => target.SetActive(false);
+        public void CloseButtonDown()
+        {
+            SoundManager.instance.PlayEffectSound(1);
+            target.SetActive(false);
+        }
     }
 }

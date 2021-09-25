@@ -27,10 +27,12 @@ namespace ws
 
         public void StartButtonDown()
         {
+            SoundManager.instance.PlayEffectSound(1);
             print("Start");
         }
         public void SettingsButtonDown()
         {
+            SoundManager.instance.PlayEffectSound(1);
             settingsPopupScreen.SetActive(true);
             UpdateVolumeController();
         }
@@ -42,6 +44,7 @@ namespace ws
 
         public void ExitButtonDown()
         {
+            SoundManager.instance.PlayEffectSound(1);
             Application.Quit();
         }
         public void VolumeChanged(float value)

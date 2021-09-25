@@ -6,7 +6,8 @@ namespace ws
 {
     public enum SoundName
     {
-        testBgm = 0
+        testBgm = 0,
+        buttonDown = 1
     }
 
     public class SoundManager : Singleton<SoundManager>
@@ -15,7 +16,11 @@ namespace ws
         private AudioSource effectAudioSource;
 
         [SerializeField] private List<AudioClip> audioClips = new List<AudioClip>();
-        [SerializeField] private string[] audioClipsPath = { "Sounds\\TestBGM" };
+        [SerializeField] private string[] audioClipsPath = 
+            {
+                "Sounds\\TestBGM",
+                "Sounds\\ButtonDown"
+            };
 
         protected override void Awake()
         {
