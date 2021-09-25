@@ -207,7 +207,7 @@ MonoBehaviour:
   img: {fileID: 3310151491173114052}
   txtSpeaker: {fileID: 4447277962095713552}
   txtContent: {fileID: 1360022085427400071}
-  btnNext: {fileID: 0}
+  btnNext: {fileID: 5517639631075232573}
   placeImg: {fileID: 2802980031186725806}
   leftCharacterImg: {fileID: 41758304}
   rightCharacterImg: {fileID: 197757182}
