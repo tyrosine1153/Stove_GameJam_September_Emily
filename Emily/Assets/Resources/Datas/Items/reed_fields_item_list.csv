@@ -1,0 +1,7 @@
+Id,Name,Sprite,Story,visibleWhenStart
+item_reed_fields_scissor,화단 가위,Assets/Resources/Sprites/reed_field/갈대밭_10_화단가위.png,Assets/Resources/Datas/Stories/item_reed_fields_scissor_story.asset,TRUE
+item_reed_fields_perfect_reed,검은 갈대,Assets/Resources/Sprites/reed_field/갈대밭_7-1_검은갈대.png,,TRUE
+item_reed_fields_unperfect_reed,잘려진 검은 갈대,Assets/Resources/Sprites/reed_field/갈대밭_7-2_잘려진검은갈대.png,,FALSE
+item_reed_fields_evidence_hat,빨간 모자,Assets/Resources/Sprites/reed_field/갈대밭_증거_빨간모자.png,Assets/Resources/Datas/Stories/item_reed_fields_evidence_hat_story.asset,FALSE
+item_reed_fields_evidence_meat,고기 덩어리,Assets/Resources/Sprites/reed_field/meet.png,Assets/Resources/Datas/Stories/item_reed_fields_evidence_meat_story.asset,FALSE
+item_reed_fields_evidence_eyes,늑대 갈대,Assets/Resources/Sprites/reed_field/갈대밭_4_늑대갈대.png,Assets/Resources/Datas/Stories/item_reed_fields_eyes_story.asset,TRUE
