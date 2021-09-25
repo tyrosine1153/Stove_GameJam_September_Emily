@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 436c7dba07be3c34b82221f5cfa01cd9, type: 3}
-  m_Name: npc_emily_story
+  m_Name: item_tree_fields_evidence_ripped_umbrella_story
   m_EditorClassIdentifier: 
   Texts:
   - Speaker: "\uAF2C\uB9C8 \uD0D0\uC815 \uC5D0\uBC00\uB9AC"
-    Content: "\uCD94\uB9AC\uB294 \uC815\uB9D0 \uC2E0\uB098!!, \uBC94\uC778\uC740
-      \uB204\uAD6C\uC77C\uAE4C??, \uC628\uBAB8\uC774 \uBD89\uC740\u2026 \uC65C \uBD89\uAC8C
-      \uBCF4\uC600\uC744\uAE4C??, \uC218\uC0AC \uBC18\uC7A5\uB2D8\uC774 \uB108\uBB34
-      \uC88B\uC544!!"
-    Image: {fileID: 0}
+    Content: "\uB0B4\uAC00 \uC4F0\uAE30 \uB531 \uC88B\uC740 \uD06C\uAE30\uC758 \uC6B0\uC0B0\uC774\uC57C!
+      \uBB50\uB77C\uACE0 \uC801\uD600\uC788\uB294 \uAC83 \uAC19\uAE30\uB3C4 \uD574.
+      \uD558\uC9C0\uB9CC\u2026 \uB2E4 \uCC22\uC5B4\uC838 \uBC84\uB838\uB294 \uAC78\u2026?"
+    Image: {fileID: 21300000, guid: ccafb0e17d70ed648a58db1ba459646a, type: 3}
     Place: 0
     LeftCharacter: 0
     RightCharacter: 0

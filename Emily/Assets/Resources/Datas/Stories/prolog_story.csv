@@ -1,4 +1,22 @@
-﻿Speaker,Content,Image,Place,LeftCharacter,RightCharacter
-에밀리,대충 누가 죽었다는 대사,,LivingRoom,Rose,Emily
-에밀리,사건 수사를 해보자는 대사,,LivingRoom,,Emily
-로즈,나는 별로 하고 싶지않다는 대사,,LivingRoom,Rose,
+Speaker,Content,Image,Place,LeftCharacter,RightCharacter
+신문,"대저택 살인사건. J.의 대저택 관리인 하버, 싸늘한 주검으로 발견.",Assets/Resources/Sprites/etc/souce_paper.png,,,
+꼬마 탐정 에밀리,출동! 출동! 사건 발생!,,,Emily,
+수사 반장 로즈,"에밀리, 여긴 네가 장난칠 곳이 아니야.",,,,Rose
+꼬마 탐정 에밀리,"반장님, 장난이라뇨!? ",,,Emily,
+수사 반장 로즈,어서 돌아가. 여기서 뭘 알아낼 수 있을 것 같니?,,,,Rose
+꼬마 탐정 에밀리,여긴 제가 제일 잘 아는 곳이잖아요! 이번엔 제가 반드시 범인을 찾아낼게요!,,,Emily,
+수사 반장 로즈,에밀리… 여긴 너무 위험해. 여긴 우리가 하던 탐정 놀이를 할 곳이 아니야. 어서 돌아가렴.,,,,Rose
+꼬마 탐정 에밀리,제가 도움이 될 수 있도록 허락해주세요! 네!? 감사합니다~~~,,,Emily,
+수사 반장 로즈,에밀리!!! 하…,,,,Rose
+꼬마 탐정 에밀리,이쪽?! 저쪽?! 어디부터 증거를 찾아볼까요~,,LivingRoom,Emily,
+수사 반장 로즈,에밀리. 정말 이럴 거니? 날 방해하지 말고 어서 나가.,,LivingRoom,,Rose
+꼬마 탐정 에밀리,반장님! 저의 추리 능력 그동안 보셨잖아요~ 빨리 시작해요!!,,LivingRoom,Emily,
+꼬마 탐정 에밀리,반장님!!!!,,LivingRoom,Emily,
+수사 반장 로즈,잘 들어 에밀리. 관리인 하버씨는 늘 이 저택을 엄격하게 관리해주셨어. 외부인에겐 더욱 엄격했지.,,LivingRoom,,Rose
+꼬마 탐정 에밀리,그럼요! 그래서 이 아름다운 저택이 늘 아름답게 유지될 수 있지 않았겠어요!?,,LivingRoom,Emily,
+수사 반장 로즈,목격자의 증언에 따르면 하버씨를 죽인 자는 마치 이 저택처럼 온몸이 붉었다지.,,LivingRoom,,Rose
+꼬마 탐정 에밀리,온몸이 붉었다..? 하지만 하버씨는 독살을 당하지 않았나요??,,LivingRoom,Emily,
+수사 반장 로즈,그래 맞아. 할 수 있겠니?,,LivingRoom,,Rose
+꼬마 탐정 에밀리,음!!!!! 뭔지 알겠어요! 걱정 마세요!,,LivingRoom,Emily,
+수사 반장 로즈,그래. 반드시 찾아서 나에게 먼저 가져오도록 해.,,LivingRoom,,Rose
+꼬마 탐정 에밀리,걱정 마시라구요~~,,LivingRoom,Emily,
