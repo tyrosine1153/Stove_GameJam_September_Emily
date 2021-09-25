@@ -212,16 +212,10 @@ MonoBehaviour:
   leftCharacterImg: {fileID: 41758304}
   rightCharacterImg: {fileID: 197757182}
   placeSprites:
-  - {fileID: 21300000, guid: 7e391886389b8614bbe555e6b1e85533, type: 3}
-  - {fileID: 21300000, guid: 7e391886389b8614bbe555e6b1e85533, type: 3}
-  - {fileID: 21300000, guid: 7e391886389b8614bbe555e6b1e85533, type: 3}
-  - {fileID: 21300000, guid: 7e391886389b8614bbe555e6b1e85533, type: 3}
-  characterSprites:
-  - {fileID: 21300000, guid: bc04d8390d136c74888c5bd2570ca4c7, type: 3}
-  - {fileID: 21300000, guid: bc04d8390d136c74888c5bd2570ca4c7, type: 3}
-  - {fileID: 21300000, guid: bc04d8390d136c74888c5bd2570ca4c7, type: 3}
-  - {fileID: 21300000, guid: bc04d8390d136c74888c5bd2570ca4c7, type: 3}
-  - {fileID: 21300000, guid: bc04d8390d136c74888c5bd2570ca4c7, type: 3}
+  - {fileID: 21300000, guid: c025f0fa2ba6fac42b7bec6b363f1a0f, type: 3}
+  - {fileID: 21300000, guid: d0cb797e269ca0741b35c7b05a5b4405, type: 3}
+  - {fileID: 21300000, guid: 7ae431157aeb8904786c33675c90664c, type: 3}
+  - {fileID: 21300000, guid: 7ae431157aeb8904786c33675c90664c, type: 3}
 --- !u!1 &3310151491173114050
 GameObject:
   m_ObjectHideFlags: 0
