@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
@@ -13,7 +13,7 @@ namespace ws
         public void StartButtonDown()
         {
             SoundManager.instance.PlayEffectSound(1);
-            print("Start");
+            SceneManagerEx.instance.LoadScene(SceneType.Opening);
         }
 
         public void ExitButtonDown()
