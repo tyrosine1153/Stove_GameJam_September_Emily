@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InteractManager : Singleton<InteractManager>
 {
+    private bool flags = false;
     private bool dragging = false;
     private bool dragFlags = false;
     private Vector3 dragOffset = Vector3.zero;
@@ -23,12 +24,24 @@ public class InteractManager : Singleton<InteractManager>
             }
             else
             {
-                OnMouseDown();
+                if (!flags)
+                {
+                    OnMouseDown();
+                    flags = true;
+                }
             }
         }
-        else if (dragging && !Input.GetMouseButton(0))
+        else if (!Input.GetMouseButton(0))
         {
-            OnMouseUp();
+            if (dragging)
+            {
+                OnMouseUp();
+            }
+
+            if (flags)
+            {
+                flags = false;
+            }
         }
     }
 
