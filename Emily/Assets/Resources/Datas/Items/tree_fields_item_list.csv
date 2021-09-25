@@ -3,6 +3,6 @@ item_tree_fields_branch,부러질듯한 나뭇가지,Assets/Resources/Sprites/be
 item_tree_fields_branch_fall,떨어진 나뭇가지,Assets/Resources/Sprites/berry_road/열매나무길_9-2_떨어진나뭇가지.png,,FALSE
 item_tree_fields_orange,덜익은 열매,Assets/Resources/Sprites/berry_road/열매나무길_7_덜익은열매.png,Assets/Resources/Datas/Stories/item_tree_fields_orange_story.asset,TRUE
 item_tree_fields_red_fruit,빨간 열매,Assets/Resources/Sprites/berry_road/열매나무길_8-1_빨간열매.png,Assets/Resources/Datas/Stories/item_tree_fields_red_fruit_story.asset,TRUE
-item_tree_fields_evidence_red_fruit,떨어진 열매,Assets/Resources/Sprites/berry_road/열매나무길_8-2_떨어진열매.png,Assets/Resources/Datas/Stories/item_tree_fields_evidence_fruit_story.asset,FALSE
-item_reed_fields_umbrella,우산,Assets/Resources/Sprites/berry_road/열매나무길_10-1_우산.png,Assets/Resources/Datas/Stories/item_tree_fields_umbrella_story.asset,TRUE
+item_tree_fields_evidence_red_fruit,떨어진 열매,Assets/Resources/Sprites/etc/과일.png,Assets/Resources/Datas/Stories/item_tree_fields_evidence_fruit_story.asset,FALSE
+item_reed_fields_umbrella,우산,Assets/Resources/Sprites/etc/우산2.png,Assets/Resources/Datas/Stories/item_tree_fields_umbrella_story.asset,TRUE
 item_reed_fields_evidence_ripped_umbrella,펼쳐진 우산,Assets/Resources/Sprites/berry_road/열매나무길_10-2_펼쳐진우산.png,Assets/Resources/Datas/Stories/item_tree_fields_evidence_ripped_umbrella_story.asset,FALSE
