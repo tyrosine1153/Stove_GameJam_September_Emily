@@ -23,6 +23,7 @@ public enum SceneType : uint {
 /// </summary>
 public class SceneManagerEx : Singleton<SceneManagerEx>
 {
+    [SerializeField]
     private SceneType currentSceneType;
     private object userData;
 
@@ -45,7 +46,9 @@ public class SceneManagerEx : Singleton<SceneManagerEx>
     /// <param name="type"></param>
     public void LoadScene(SceneType type)
     {
-        SceneManager.LoadScene((int) type);
+        currentSceneType = type;
+
+        SceneManager.LoadScene((int)CurrentSceneType);
     }
 
     /// <summary>
@@ -98,11 +101,11 @@ public class SceneManagerEx : Singleton<SceneManagerEx>
             return;
         }
 
-        var nextSceneType = CurrentSceneType - 1;
-        if (nextSceneType < SceneType.LivingRoom) {
-            nextSceneType = SceneType.ReedField;
+        var prevSceneType = CurrentSceneType - 1;
+        if (prevSceneType < SceneType.LivingRoom) {
+            prevSceneType = SceneType.ReedField;
         }
 
-        LoadScene(nextSceneType);
+        LoadScene(prevSceneType);
     }
 }

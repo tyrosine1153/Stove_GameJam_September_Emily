@@ -46,6 +46,16 @@ public class TopBar : MonoBehaviour
         }
     }
 
+    public void PrevScene()
+    {
+        SceneManagerEx.instance.LoadPrevScene();
+    }
+
+    public void NextScene()
+    {
+        SceneManagerEx.instance.LoadNextScene();
+    }
+
     void Start()
     {
         height = imgInventoryBar.rectTransform.rect.height;
