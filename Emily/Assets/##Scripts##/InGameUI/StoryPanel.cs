@@ -18,7 +18,6 @@ public class StoryPanel : MonoBehaviour
     public Image rightCharacterImg;
 
     public Sprite[] placeSprites;
-    public Sprite[] characterSprites;
     
     public void Awake()
     {
