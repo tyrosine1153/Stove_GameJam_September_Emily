@@ -749,7 +749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3310151490059150346, guid: e51419edc23be9644b86b43429271ed8, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3310151490059150346, guid: e51419edc23be9644b86b43429271ed8, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2272,7 +2272,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4584727807181893778, guid: cc03a041cd97dec45b2c2059bd784139, type: 3}
       propertyPath: m_Text
-      value: "\uAC08\uB300 \uC232"
+      value: "\uAC08\uB300 \uBC2D"
       objectReference: {fileID: 0}
     - target: {fileID: 7157458915028153153, guid: cc03a041cd97dec45b2c2059bd784139, type: 3}
       propertyPath: m_Pivot.x
@@ -2284,7 +2284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7157458915028153153, guid: cc03a041cd97dec45b2c2059bd784139, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7157458915028153153, guid: cc03a041cd97dec45b2c2059bd784139, type: 3}
       propertyPath: m_AnchorMax.x
