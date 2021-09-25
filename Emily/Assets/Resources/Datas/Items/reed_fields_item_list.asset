@@ -35,7 +35,7 @@ MonoBehaviour:
     visibleWhenStart: 0
   - Id: item_reed_fields_evidence_meat
     Name: "\uACE0\uAE30 \uB369\uC5B4\uB9AC"
-    Sprite: {fileID: 0}
+    Sprite: {fileID: 21300000, guid: 6847af030d0e37d4f86be4d6f4bb2908, type: 3}
     Story: {fileID: 11400000, guid: 5e29d7c38e20d31478ef4d97ee12efe4, type: 2}
     visibleWhenStart: 0
   - Id: item_reed_fields_evidence_eyes
