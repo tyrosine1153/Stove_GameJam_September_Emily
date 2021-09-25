@@ -11,9 +11,11 @@ public enum SceneType : uint {
     Opening,
     Ending,
 
-    Lobby,
+    LivingRoom,
     FruitRoad,
     ReedField,
+
+    LastChoose,
 }
 
 /// <summary>
@@ -71,7 +73,7 @@ public class SceneManagerEx : Singleton<SceneManagerEx>
     /// </summary>
     public void LoadNextScene()
     {
-        if (CurrentSceneType < SceneType.Lobby || CurrentSceneType > SceneType.ReedField)
+        if (CurrentSceneType < SceneType.LivingRoom || CurrentSceneType > SceneType.ReedField)
         {
             return;
         }
@@ -79,7 +81,7 @@ public class SceneManagerEx : Singleton<SceneManagerEx>
         var nextSceneType = CurrentSceneType + 1;
         if (nextSceneType > SceneType.ReedField)
         {
-            nextSceneType = SceneType.Lobby;
+            nextSceneType = SceneType.LivingRoom;
         }
 
         LoadScene(nextSceneType);
@@ -92,12 +94,12 @@ public class SceneManagerEx : Singleton<SceneManagerEx>
     /// </summary>
     public void LoadPrevScene()
     {
-        if (CurrentSceneType < SceneType.Lobby || CurrentSceneType > SceneType.ReedField) {
+        if (CurrentSceneType < SceneType.LivingRoom || CurrentSceneType > SceneType.ReedField) {
             return;
         }
 
         var nextSceneType = CurrentSceneType - 1;
-        if (nextSceneType < SceneType.Lobby) {
+        if (nextSceneType < SceneType.LivingRoom) {
             nextSceneType = SceneType.ReedField;
         }
 
