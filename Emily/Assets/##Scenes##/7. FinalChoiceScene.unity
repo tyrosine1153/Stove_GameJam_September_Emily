@@ -1003,7 +1003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &608452641
 Transform:
   m_ObjectHideFlags: 0
@@ -1067,7 +1067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dontDestroyOnLoad: 1
   itemLists:
-  - {fileID: 11400000, guid: d4be268f051f53d419509768b2d91c0c, type: 2}
+  - {fileID: 0}
 --- !u!1 &803465441
 GameObject:
   m_ObjectHideFlags: 0
