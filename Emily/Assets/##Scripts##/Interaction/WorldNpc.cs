@@ -7,7 +7,7 @@ public class WorldNpc : Interactable
     public StoryScriptableObject story;
 
     public override void Interact() {
-        if (story) {
+        if (story && !UIManager.instance.IsStoryShowing) {
             UIManager.instance.ShowStory(story);
         }
     }

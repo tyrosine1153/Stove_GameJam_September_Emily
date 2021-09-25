@@ -33,6 +33,13 @@ public class StoryManager : MonoBehaviour
     private Random random;
     private Action actionAfterStoryDone = null;
 
+    private bool isStoryShowing  = false;
+
+    public bool IsStoryShowing
+    {
+        get { return isStoryShowing; }
+    }
+
     /// <summary>
     /// 주어진 panel을 현재 활성화된 panel로 설정한다
     /// </summary>
@@ -82,6 +89,7 @@ public class StoryManager : MonoBehaviour
         currentStory = story;
         currentTextIndex = 0;
         actionAfterStoryDone = null;
+        isStoryShowing = true;
 
         ShowCurrentStoryText();
     }
@@ -90,6 +98,7 @@ public class StoryManager : MonoBehaviour
         currentStory = story;
         currentTextIndex = 0;
         actionAfterStoryDone = action;
+        isStoryShowing = true;
 
         ShowCurrentStoryText();
     }
@@ -119,6 +128,7 @@ public class StoryManager : MonoBehaviour
                         actionAfterStoryDone.Invoke();
                     }
                     objTalkPanel.SetActive(false);
+                    isStoryShowing = false;
                 }
             }
 
