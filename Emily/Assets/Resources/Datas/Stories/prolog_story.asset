@@ -16,8 +16,7 @@ MonoBehaviour:
   - Speaker: "\uC2E0\uBB38"
     Content:
     - "\uB300\uC800\uD0DD \uC0B4\uC778\uC0AC\uAC74. J.\uC758 \uB300\uC800\uD0DD \uAD00\uB9AC\uC778
-      \uD558\uBC84"
-    - " \uC2F8\uB298\uD55C \uC8FC\uAC80\uC73C\uB85C \uBC1C\uACAC."
+      \uD558\uBC84\u201A \uC2F8\uB298\uD55C \uC8FC\uAC80\uC73C\uB85C \uBC1C\uACAC."
     Image: {fileID: 21300000, guid: 2840965ea3fca114dafbc880313347cd, type: 3}
     Place: 0
     LeftCharacter: {fileID: 0}
@@ -31,16 +30,15 @@ MonoBehaviour:
     RightCharacter: {fileID: 0}
   - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
     Content:
-    - "\uC5D0\uBC00\uB9AC"
-    - " \uC5EC\uAE34 \uB124\uAC00 \uC7A5\uB09C\uCE60 \uACF3\uC774 \uC544\uB2C8\uC57C."
+    - "\uC5D0\uBC00\uB9AC\u201A \uC5EC\uAE34 \uB124\uAC00 \uC7A5\uB09C\uCE60 \uACF3\uC774
+      \uC544\uB2C8\uC57C."
     Image: {fileID: 0}
     Place: 0
     LeftCharacter: {fileID: 0}
     RightCharacter: {fileID: 21300000, guid: 209567926d4b93649a634911c9ff6227, type: 3}
   - Speaker: "\uAF2C\uB9C8 \uD0D0\uC815 \uC5D0\uBC00\uB9AC"
     Content:
-    - "\uBC18\uC7A5\uB2D8"
-    - " \uC7A5\uB09C\uC774\uB77C\uB1E8!? "
+    - "\uBC18\uC7A5\uB2D8\u201A \uC7A5\uB09C\uC774\uB77C\uB1E8!?"
     Image: {fileID: 0}
     Place: 0
     LeftCharacter: {fileID: 21300000, guid: 8326a0a9e2985ab4cba9827c557b5974, type: 3}
