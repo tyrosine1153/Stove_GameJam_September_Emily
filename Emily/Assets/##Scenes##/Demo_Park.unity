@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 203896489}
   - component: {fileID: 203896488}
   - component: {fileID: 203896487}
+  - component: {fileID: 203896490}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -168,9 +169,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0879d1561b74f944c9c1ac0d8b5fbc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  draggable: 0
   interactType: 0
   itemId: 
-  story: {fileID: 11400000, guid: d2a4bab42d68d3749a193b91e2830d85, type: 2}
+  reverseVisibility: 0
 --- !u!61 &203896488
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -248,6 +250,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &203896490
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203896485}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &417196365
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,6 +365,7 @@ GameObject:
   - component: {fileID: 622860302}
   - component: {fileID: 622860303}
   - component: {fileID: 622860304}
+  - component: {fileID: 622860305}
   m_Layer: 0
   m_Name: Fireplace
   m_TagString: Untagged
@@ -426,9 +450,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0879d1561b74f944c9c1ac0d8b5fbc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  draggable: 0
   interactType: 0
   itemId: 
-  story: {fileID: 11400000, guid: d2a4bab42d68d3749a193b91e2830d85, type: 2}
+  reverseVisibility: 0
 --- !u!61 &622860304
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -455,6 +480,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.03, y: 1.4}
   m_EdgeRadius: 0
+--- !u!50 &622860305
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622860300}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &715566916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1034,6 +1080,7 @@ GameObject:
   - component: {fileID: 1042657368}
   - component: {fileID: 1042657367}
   - component: {fileID: 1042657366}
+  - component: {fileID: 1042657369}
   m_Layer: 0
   m_Name: evidence_1
   m_TagString: Untagged
@@ -1067,9 +1114,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0879d1561b74f944c9c1ac0d8b5fbc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  draggable: 1
   interactType: 1
   itemId: evidence_1
-  story: {fileID: 0}
+  reverseVisibility: 0
 --- !u!61 &1042657367
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1147,6 +1195,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1042657369
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042657364}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!224 &1174500882 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3310151490059150346, guid: e51419edc23be9644b86b43429271ed8, type: 3}

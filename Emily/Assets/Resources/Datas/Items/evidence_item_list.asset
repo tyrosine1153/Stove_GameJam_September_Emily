@@ -17,3 +17,4 @@ MonoBehaviour:
     Name: "\uC99D\uAC70\uBB3C 1"
     Sprite: {fileID: 21300000, guid: 69775b654ebb4a24583d11146b066c35, type: 3}
     Story: {fileID: 11400000, guid: 45567afee24863c4caadd3ae58691d82, type: 2}
+    visibleWhenStart: 1
