@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PrologEndingStory : Singleton<PrologEndingStory>
+public class PrologEndingStory : MonoBehaviour
 {
     public int StoryType;
 
