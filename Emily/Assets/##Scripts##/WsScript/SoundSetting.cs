@@ -3,18 +3,17 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class SoundSetting : MonoBehaviour
+namespace ws
 {
-    [SerializeField] private Slider volumeController;
-    [SerializeField] private Text volmunText;
-
-    private void Update()
+    public class SoundSetting : MonoBehaviour
     {
-        volumeController.onValueChanged.AddListener(ChangeValueText);
-    }
 
-    public void ChangeValueText(float value)
-    {
-        volmunText.text = $"{volumeController.value}";
+
+        private void Update()
+        {
+            
+        }
+
+
     }
 }
