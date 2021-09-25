@@ -1,2 +1,4 @@
-﻿Id,Name,Sprite,Story
-evidence_1,증거물 1,Assets/Resources/Sprites/evidence_1.png,Assets/Resources/Datas/Stories/demo_story.asset
+﻿Id,Name,Sprite,Story,visibleWhenStart
+evidence_1,증거물 1,Assets/Resources/Sprites/evidence_1.png,Assets/Resources/Datas/Stories/demo_story.asset,TRUE
+evidence_2,증거물 2,Assets/Resources/Sprites/evidence_1.png,Assets/Resources/Datas/Stories/demo_story.asset,FALSE
+evidence_emily,증거물 에밀리,Assets/Resources/Sprites/emily_default.png,Assets/Resources/Datas/Stories/unknown_item_story.asset,TRUE

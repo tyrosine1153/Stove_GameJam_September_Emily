@@ -47,3 +47,9 @@ TagManager:
   - name: Background2
     uniqueID: 3725146687
     locked: 0
+  - name: Npc
+    uniqueID: 3402030027
+    locked: 0
+  - name: Interactable
+    uniqueID: 1059204633
+    locked: 0
