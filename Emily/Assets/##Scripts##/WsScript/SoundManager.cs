@@ -39,6 +39,7 @@ namespace ws
             effectAudioSource.playOnAwake = false;
             effectAudioSource.loop = false;
 
+            base.Awake();
         }
 
         private void Start()

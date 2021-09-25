@@ -961,6 +961,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8591323918830299080, guid: cc03a041cd97dec45b2c2059bd784139, type: 3}
+      propertyPath: m_Text
+      value: "\uAC08\uB300 \uBC2D"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc03a041cd97dec45b2c2059bd784139, type: 3}
 --- !u!224 &794321098 stripped
@@ -1315,7 +1319,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &933464360
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2377,7 +2381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dontDestroyOnLoad: 1
   itemLists:
-  - {fileID: 11400000, guid: d4be268f051f53d419509768b2d91c0c, type: 2}
+  - {fileID: 0}
 --- !u!1 &1495701330
 GameObject:
   m_ObjectHideFlags: 0
