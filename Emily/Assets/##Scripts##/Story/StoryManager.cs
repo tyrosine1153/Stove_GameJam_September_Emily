@@ -25,6 +25,7 @@ public class StoryManager : MonoBehaviour
     [SerializeField] private Sprite[] placeSprites;
     [SerializeField] private Sprite[] characterSprites;
 
+    private PrologEndingStory prologEndingStory;
     private bool isProlog;
     private bool isEnding;
 
@@ -46,6 +47,24 @@ public class StoryManager : MonoBehaviour
 
         placeSprites = panel.placeSprites;
         characterSprites = panel.characterSprites;
+
+        prologEndingStory = GameObject.Find("Prolog/EndingStory").GetComponent<PrologEndingStory>();
+        if (prologEndingStory != null)
+        {
+            switch (prologEndingStory.StoryType)
+            {
+                // Prolog
+                case 0:
+                    isProlog = true;
+                    break;
+                case 1:
+                    isEnding = true;
+                    break;
+                default:
+                    isProlog = isEnding = false;
+                    break;
+            }
+        }
     }
 
     public void ShowStory(StoryScriptableObject story)
@@ -66,7 +85,18 @@ public class StoryManager : MonoBehaviour
         {
             if (disableIfDone)
             {
-                objTalkPanel.SetActive(false);
+                if (isProlog)
+                {
+                    prologEndingStory.PrologEnd();
+                }
+                else if (isEnding)
+                {
+                    prologEndingStory.EndingEnd();
+                }
+                else
+                {
+                    objTalkPanel.SetActive(false);
+                }
             }
 
             return;
