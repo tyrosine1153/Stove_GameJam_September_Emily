@@ -1,29 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.UI;
+using Debug = UnityEngine.Debug;
 
-public class StoryManager : MonoBehaviour {
-    [SerializeField]
-    private StoryScriptableObject currentStory;
+public class StoryManager : MonoBehaviour
+{
+    [SerializeField] private StoryScriptableObject currentStory;
 
-    [SerializeField]
-    private int currentTextIndex = 0;
+    [SerializeField] private int currentTextIndex = 0;
 
-    [SerializeField]
-    private GameObject objTalkPanel = null;
+    [SerializeField] private GameObject objTalkPanel = null;
 
-    [SerializeField] 
-    private Image img = null;
+    [SerializeField] private Image img = null;
+    [SerializeField] private Text txtSpeaker = null;
+    [SerializeField] private Text txtContent = null;
+    [SerializeField] private Button btnNext = null;
 
-    [SerializeField]
-    private Text txtSpeaker = null;
+    [SerializeField] private Image placeImg = null;
+    [SerializeField] private Image leftCharacterImg = null;
+    [SerializeField] private Image rightCharacterImg = null;
 
-    [SerializeField]
-    private Text txtContent = null;
+    [SerializeField] private Sprite[] placeSprites;
+    [SerializeField] private Sprite[] characterSprites;
 
-    [SerializeField]
-    private Button btnNext = null;
+    private PrologEndingStory prologEndingStory;
+    private bool isProlog;
+    private bool isEnding;
 
     /// <summary>
     /// 주어진 panel을 현재 활성화된 panel로 설정한다
@@ -36,6 +40,31 @@ public class StoryManager : MonoBehaviour {
         txtSpeaker = panel.txtSpeaker;
         txtContent = panel.txtContent;
         btnNext = panel.btnNext;
+
+        placeImg = panel.placeImg;
+        leftCharacterImg = panel.leftCharacterImg;
+        rightCharacterImg = panel.rightCharacterImg;
+
+        placeSprites = panel.placeSprites;
+        characterSprites = panel.characterSprites;
+
+        prologEndingStory = GameObject.Find("Prolog/EndingStory").GetComponent<PrologEndingStory>();
+        if (prologEndingStory != null)
+        {
+            switch (prologEndingStory.StoryType)
+            {
+                // Prolog
+                case 0:
+                    isProlog = true;
+                    break;
+                case 1:
+                    isEnding = true;
+                    break;
+                default:
+                    isProlog = isEnding = false;
+                    break;
+            }
+        }
     }
 
     public void ShowStory(StoryScriptableObject story)
@@ -56,7 +85,18 @@ public class StoryManager : MonoBehaviour {
         {
             if (disableIfDone)
             {
-                objTalkPanel.SetActive(false);
+                if (isProlog)
+                {
+                    prologEndingStory.PrologEnd();
+                }
+                else if (isEnding)
+                {
+                    prologEndingStory.EndingEnd();
+                }
+                else
+                {
+                    objTalkPanel.SetActive(false);
+                }
             }
 
             return;
@@ -87,10 +127,40 @@ public class StoryManager : MonoBehaviour {
             img.sprite = text.Image;
         }
 
-        if (img.sprite == null && img.gameObject.activeSelf) {
+        if (img.sprite == null && img.gameObject.activeSelf)
+        {
             img.gameObject.SetActive(false);
-        } else if (img.sprite != null && !img.gameObject.activeSelf) {
+        }
+        else if (img.sprite != null && !img.gameObject.activeSelf)
+        {
             img.gameObject.SetActive(true);
+        }
+        
+        // 장소
+        if (placeImg != null && placeImg.sprite != placeSprites[(int) text.Place])
+        {
+            placeImg.sprite = placeSprites[(int) text.Place];
+        }
+        
+        // 대사하는 인물
+        if (text.LeftCharacter != StoryScriptableObject.Character.None)
+        {
+            leftCharacterImg.gameObject.SetActive(true);
+            leftCharacterImg.sprite = characterSprites[(int)text.LeftCharacter - 1];
+        }
+        else
+        {
+            leftCharacterImg.gameObject.SetActive(false);
+        }
+        
+        if (text.RightCharacter != StoryScriptableObject.Character.None)
+        {
+            rightCharacterImg.gameObject.SetActive(true);
+            rightCharacterImg.sprite = characterSprites[(int)text.RightCharacter - 1];
+        }
+        else
+        {
+            rightCharacterImg.gameObject.SetActive(false);
         }
     }
 }

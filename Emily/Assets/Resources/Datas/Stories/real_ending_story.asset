@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c7dba07be3c34b82221f5cfa01cd9, type: 3}
+  m_Name: real_ending_story
+  m_EditorClassIdentifier: 
+  Texts:
+  - Speaker: "\uB85C\uC988"
+    Content: "\uC5D0\uBC00\uB9AC!!! \uC774\uB9AC\uC640!!!! \uAC70\uAE30\uC11C!!!
+      (\uBA40\uB9AC\uC11C \uD76C\uBBF8\uD558\uAC8C \uB4E4\uB9AC\uB294 \uC0AC\uC774\uB80C
+      \uC18C\uB9AC)"
+    Image: {fileID: 0}
+    Place: 2
+    LeftCharacter: 2
+    RightCharacter: 1
+  - Speaker: "\uD615\uC0AC 1"
+    Content: "\uC544\uC774\uB294 \uBCD1\uC6D0\uC73C\uB85C \uC798 \uC774\uB3D9\uD588\uC9C0?"
+    Image: {fileID: 0}
+    Place: 2
+    LeftCharacter: 0
+    RightCharacter: 0
+  - Speaker: "\uD615\uC0AC 2"
+    Content: "\uADF8\uB798. \uC544\uC774\uAC00 \uC790\uC2E0\uC758 \uBAA8\uC790\uB97C
+      \uC560\uD0C0\uAC8C \uCC3E\uB354\uAD70."
+    Image: {fileID: 0}
+    Place: 2
+    LeftCharacter: 0
+    RightCharacter: 0

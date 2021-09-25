@@ -6,7 +6,25 @@ using UnityEditor;
 #endif
 
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/Story", order = 2)]
-public class StoryScriptableObject : ScriptableObject {
+public class StoryScriptableObject : ScriptableObject 
+{
+    public enum Place
+    {
+        None = 0,
+        LivingRoom,
+        FruitPath,
+        ReedField
+    }
+
+    public enum Character
+    {
+        None = 0,
+        Emily,
+        Rose,
+        RedWoman,
+        Gardener
+    }
+    
     [Serializable]
     public class Text
     {
@@ -21,6 +39,10 @@ public class StoryScriptableObject : ScriptableObject {
         public string Content;
 
         public Sprite Image;
+        
+        public Place Place;
+        public Character LeftCharacter;
+        public Character RightCharacter;
     }
 
     public Text[] Texts;
