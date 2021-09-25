@@ -52,6 +52,8 @@ public class StoryManager : MonoBehaviour
         txtContent = panel.txtContent;
         btnNext = panel.btnNext;
 
+        isStoryShowing = false;
+
         placeImg = panel.placeImg;
         leftCharacterImg = panel.leftCharacterImg;
         rightCharacterImg = panel.rightCharacterImg;
