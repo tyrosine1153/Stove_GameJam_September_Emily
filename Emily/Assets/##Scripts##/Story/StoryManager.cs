@@ -173,6 +173,7 @@ public class StoryManager : MonoBehaviour
         if (img.sprite != text.Image)
         {
             img.sprite = text.Image;
+            img.preserveAspect = true;
         }
 
         if (img.sprite == null && img.gameObject.activeSelf)
