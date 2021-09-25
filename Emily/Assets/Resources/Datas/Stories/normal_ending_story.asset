@@ -14,13 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Texts:
   - Speaker: "\uB85C\uC988"
-    Content: "\uB300\uCDA9 \uC0AC\uAC74\uC758 \uACB0\uB9D0 \uC124\uBA85"
+    Content:
+    - "\uB300\uCDA9 \uC0AC\uAC74\uC758 \uACB0\uB9D0 \uC124\uBA85"
     Image: {fileID: 0}
     Place: 1
     LeftCharacter: 2
     RightCharacter: 1
   - Speaker: "\uB85C\uC988"
-    Content: "\uC5D0\uBC00\uB9AC \uB2E4\uC2DC\uB294 \uC774\uB7F0 \uACF3\uC5D0 \uBC1C\uB4E4\uC77C
+    Content:
+    - "\uC5D0\uBC00\uB9AC \uB2E4\uC2DC\uB294 \uC774\uB7F0 \uACF3\uC5D0 \uBC1C\uB4E4\uC77C
       \uC0DD\uAC01 \uB9C8\uB834"
     Image: {fileID: 0}
     Place: 1

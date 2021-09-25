@@ -130,7 +130,6 @@ public class StoryManager : MonoBehaviour
         var text = GetCurrentText();
         txtSpeaker.text = text.Speaker;
 
-        Debug.Log("Show Story");
         if (text.Content.Length == 0)
         {
             txtContent.text = "";
