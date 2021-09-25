@@ -750,7 +750,7 @@ MonoBehaviour:
   draggable: 0
   story: {fileID: 11400000, guid: d120ae482299e0d47b5f474b1a99909e, type: 2}
   EvidenceCount: 4
-  storyForSelectScene: {fileID: 11400000, guid: d120ae482299e0d47b5f474b1a99909e, type: 2}
+  storyForSelectScene: {fileID: 11400000, guid: 001791ddff64d4a498a6c8f220c2c5c2, type: 2}
 --- !u!50 &593918084
 Rigidbody2D:
   serializedVersion: 4
@@ -1795,7 +1795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1028637091
 Transform:
   m_ObjectHideFlags: 0
