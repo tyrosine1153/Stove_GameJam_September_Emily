@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 436c7dba07be3c34b82221f5cfa01cd9, type: 3}
+  m_Name: emily_pick_story
+  m_EditorClassIdentifier: 
+  Texts:
+  - Speaker: "\uFFFD\uFFFD\uFFFD\uFFFD \u017D\uFFFD\uFFFD \uFFFD\uFFFD\uFFFD\u0438\uFFFD"
+    Content:
+    - "\uFFFD\uFFFD\uFFFD\uFFFD \uFFFD\uFFFD\uFFFD\uFFFD \uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u0336\uFFFD\uFFFD
+      \uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD!?"
+    Image: {fileID: 0}
+    Place: 0
+    LeftCharacter: 0
+    RightCharacter: 0

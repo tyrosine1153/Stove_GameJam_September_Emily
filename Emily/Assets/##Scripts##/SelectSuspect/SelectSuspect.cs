@@ -19,14 +19,39 @@ public class SelectSuspect : MonoBehaviour
         
         if(hit && !isSelect)
         {
+            
+
             curSuspect = hit.collider.GetComponent<Suspect>(); //콜라이더 넣는건 별로인가욥?
         
             StartCoroutine(SetMouseOn(curSuspect));
 
             if(Input.GetMouseButtonDown(0))
             {
-                isSelect = true;
-                curSuspect.isClick = true;
+                if(hit.collider.name == "emily_smile")
+                {
+                    SceneManagerEx.instance.SetUserData(1);
+                    Debug.Log("1");
+                }
+
+                if(hit.collider.name == "redDress_NPC")
+                {
+                    SceneManagerEx.instance.SetUserData(2);
+                    Debug.Log("2");
+                }
+
+                if(hit.collider.name == "rose_idle")
+                {
+                    SceneManagerEx.instance.SetUserData(3);
+                    Debug.Log("3");
+                }
+
+                if(hit.collider.name == "noin")
+                {
+                    SceneManagerEx.instance.SetUserData(4);
+                    Debug.Log("4");
+                }
+                    isSelect = true;
+                    curSuspect.isClick = true;
             }
         }
         
