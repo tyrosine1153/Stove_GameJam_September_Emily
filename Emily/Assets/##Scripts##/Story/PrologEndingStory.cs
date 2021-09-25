@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,7 +14,7 @@ public class PrologEndingStory : MonoBehaviour
 
     public void PrologEnd()
     {
-        SceneManagerEx.instance.LoadScene(SceneType.Lobby);
+        SceneManagerEx.instance.LoadScene(SceneType.LivingRoom);
     }
 
     public void EndingEnd()
