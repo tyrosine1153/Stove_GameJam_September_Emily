@@ -126,7 +126,7 @@ public class StoryManager : MonoBehaviour
         if (text.RightCharacter != StoryScriptableObject.Character.None)
         {
             rightCharacterImg.gameObject.SetActive(true);
-            rightCharacterImg.sprite = characterSprites[(int)text.LeftCharacter - 1];
+            rightCharacterImg.sprite = characterSprites[(int)text.RightCharacter - 1];
         }
         else
         {
