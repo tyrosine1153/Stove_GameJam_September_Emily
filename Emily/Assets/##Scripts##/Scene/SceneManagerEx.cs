@@ -22,10 +22,19 @@ public enum SceneType : uint {
 public class SceneManagerEx : Singleton<SceneManagerEx>
 {
     private SceneType currentSceneType;
+    private object userData;
 
     public SceneType CurrentSceneType
     {
         get { return currentSceneType; }
+    }
+
+    /// <summary>
+    /// 씬을 넘어 사용되는 데이터
+    /// </summary>
+    public object UserData
+    {
+        get { return userData; }
     }
 
     /// <summary>
@@ -35,6 +44,15 @@ public class SceneManagerEx : Singleton<SceneManagerEx>
     public void LoadScene(SceneType type)
     {
         SceneManager.LoadScene((int) type);
+    }
+
+    /// <summary>
+    /// 씬을 넘어 사용될 데이터를 설정한다
+    /// </summary>
+    /// <param name="data"></param>
+    public void SetUserData(object data)
+    {
+        userData = data;
     }
 
     /// <summary>
