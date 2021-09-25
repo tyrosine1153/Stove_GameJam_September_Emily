@@ -16,7 +16,7 @@ MonoBehaviour:
   - Id: reed_field_item_scissor
     Name: "\uAC00\uC704"
     Sprite: {fileID: 0}
-    Story: {fileID: 0}
+    Story: {fileID: 11400000, guid: 32918e93148098341a5353425abadd7e, type: 2}
     visibleWhenStart: 1
   - Id: reed_field_item_black_reed
     Name: "\uAC80\uC740 \uAC08\uB300"
@@ -31,5 +31,15 @@ MonoBehaviour:
   - Id: reed_field_item_red_hat
     Name: "\uBE68\uAC04 \uBAA8\uC790"
     Sprite: {fileID: 21300000, guid: 6b50dd2ef83b8784c95335f1ac231ddf, type: 3}
-    Story: {fileID: 11400000, guid: ea78841f00339fb40aa83fe2533bb0a4, type: 2}
+    Story: {fileID: 11400000, guid: 43c2f2893b4e3ae4184c36b9f3cca499, type: 2}
     visibleWhenStart: 0
+  - Id: reed_field_item_meet
+    Name: "\uC0DD\uACE0\uAE30"
+    Sprite: {fileID: 21300000, guid: 74a81b9cf208ec042b57a093de95dc3c, type: 3}
+    Story: {fileID: 11400000, guid: 7d7e6c9b483760148a57651df586c24d, type: 2}
+    visibleWhenStart: 0
+  - Id: reed_field_item_walf_reed
+    Name: "\uB291\uB300 \uAC08\uB300"
+    Sprite: {fileID: 0}
+    Story: {fileID: 11400000, guid: ce285fc27a6e6f44cac173fa6a83a3bf, type: 2}
+    visibleWhenStart: 1

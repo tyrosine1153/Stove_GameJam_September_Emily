@@ -31,6 +31,7 @@ public class StoryManager : MonoBehaviour
     private bool isProlog;
     private bool isEnding;
     private Random random;
+    private Action actionAfterStoryDone = null;
 
     /// <summary>
     /// 주어진 panel을 현재 활성화된 panel로 설정한다
@@ -80,6 +81,15 @@ public class StoryManager : MonoBehaviour
     {
         currentStory = story;
         currentTextIndex = 0;
+        actionAfterStoryDone = null;
+
+        ShowCurrentStoryText();
+    }
+
+    public void ShowStory(StoryScriptableObject story, Action action) {
+        currentStory = story;
+        currentTextIndex = 0;
+        actionAfterStoryDone = action;
 
         ShowCurrentStoryText();
     }
@@ -104,6 +114,10 @@ public class StoryManager : MonoBehaviour
                 }
                 else
                 {
+                    if (actionAfterStoryDone != null)
+                    {
+                        actionAfterStoryDone.Invoke();
+                    }
                     objTalkPanel.SetActive(false);
                 }
             }
