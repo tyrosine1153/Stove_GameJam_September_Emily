@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
@@ -48,9 +49,10 @@ public class StoryManager : MonoBehaviour
         placeSprites = panel.placeSprites;
         characterSprites = panel.characterSprites;
 
-        prologEndingStory = GameObject.Find("Prolog/EndingStory").GetComponent<PrologEndingStory>();
-        if (prologEndingStory != null)
+        
+        try
         {
+            prologEndingStory = GameObject.Find("Prolog/EndingStory").GetComponent<PrologEndingStory>();
             switch (prologEndingStory.StoryType)
             {
                 // Prolog
@@ -64,6 +66,11 @@ public class StoryManager : MonoBehaviour
                     isProlog = isEnding = false;
                     break;
             }
+        }
+        catch (NullReferenceException e)
+        {
+            Console.WriteLine(e);
+            isProlog = isEnding = false;
         }
     }
 
