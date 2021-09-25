@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class TextAlphaEffect : MonoBehaviour
 {
+    [SerializeField] private float waitTime;
     [SerializeField] private float addAlphaValue;
     [SerializeField] private Text text;
     Color startColor;
@@ -35,12 +36,20 @@ public class TextAlphaEffect : MonoBehaviour
                 yield return null;
             }
 
+            text.color = endColor;
+            temp = endColor;
+            yield return new WaitForSeconds(waitTime);
+
 
             while (temp.a - addAlphaValue > 0)
             {
                 ChangeTextColor(-addAlphaValue);
                 yield return null;
             }
+
+            text.color = startColor;
+            temp = startColor;
+            yield return new WaitForSeconds(waitTime);
         }
     }
 
