@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ToggleTopBar : MonoBehaviour
+public class TopBar : MonoBehaviour
 {
     public Sprite ImgShow;
 
