@@ -13,6 +13,13 @@ public class StoryPanel : MonoBehaviour
 
     public Button btnNext;
 
+    public Image placeImg;
+    public Image leftCharacterImg;
+    public Image rightCharacterImg;
+
+    public Sprite[] placeSprites;
+    public Sprite[] characterSprites;
+    
     public void Awake()
     {
         UIManager.instance.SetUI(this);
