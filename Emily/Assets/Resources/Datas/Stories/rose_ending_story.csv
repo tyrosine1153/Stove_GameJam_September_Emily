@@ -1,15 +1,15 @@
-Speaker,Content,Image,Place,LeftCharacter,RightCharacter
-꼬마 탐정 에밀리,여보세요..? 형사 아저씨?? 여기 대저택이에요.. 빨리…  빨리 와주세요….,,ReedField,Emily,
-수사 반장 로즈,에밀리!!! 에밀리!!!!!!!! 이리와 거기서!!!!,,ReedField,,Rose
-꼬마 탐정 에밀리,꺄아아아악!!!!!!,,ReedField,Emily,
-형사1,아이는 병원으로 잘 이동했지?,,ReedField,,
-형사2,그래. 조금만 더 늦었으면 아이가 정말 위험할 뻔 했어. 여긴 또 뭔데?,,ReedField,,
-형사1,아이의 아빠 존. 형체를 알아볼 수 없을 정도야.,Assets/Resources/Sprites/etc/meet.png,ReedField,,
-형사2,자신의 남편을 이렇게 살해하다니. 끔찍하군… 이제라도 잡게되서 다행이야.,,ReedField,,
-형사1,"어릴적부터 가족들에게 폭행을 당하고, 큰 사고를 겪은 뒤로 빨간색에 대한 이상한 집착이 생긴 것 같아.",,ReedField,,
-형사2,이 저택의 온전한 주인이 되고 싶었던가..?,,ReedField,,
-형사1,글쎄… 이건 존의 시체 옆에서 발견된 편지야. 아무래도 아이까지 정말 죽일 생각이었던 것 같군.,,ReedField,,
-수사 반장 로즈,에밀리. 엄마와의 탐정 놀이가 즐겁지 않았어? 다음번엔 꼭 아빠에게 탐정 역할을 맡겨주자꾸나. 에밀리. 엄마는 시끄러운 이곳이 너무나도 싫어.,Assets/Resources/Sprites/etc/letter.png,ReedField,Rose,
-수사 반장 로즈,"하지만, 에밀리가 없는 엄마의 시간은 온 세상이 멈춘 듯 고요하고, 슬프구나. 엄마와 함께 붉은 노을이 지는 길을 따라 아름다운 장미를 구경하러 가자. 에밀리가 사랑하는 엄마가…",Assets/Resources/Sprites/etc/letter.png,ReedField,Rose,
-형사2,이게 도대체 뭔 소리야…,,ReedField,,
-형사1,"제정신이 아니야, 사형을 면할 수는 없겠어. 마을이 온통 붉게 물들지 않아 다행이군…",,ReedField,,
+Speaker,Content,Image,Place,LeftCharacter,RightCharacter,Face
+꼬마 탐정 에밀리,여보세요..? 형사 아저씨?? 여기 대저택이에요.. 빨리…  빨리 와주세요….,,ReedField,Assets/Resources/Sprites/character/emily_amazed.png,,놀람
+수사 반장 로즈,에밀리!!! 에밀리!!!!!!!! 이리와 거기서!!!!,,ReedField,,Assets/Resources/Sprites/character/rose_front.png,초점 아웃
+꼬마 탐정 에밀리,꺄아아아악!!!!!!,,ReedField,,,
+형사1,아이는 병원으로 잘 이동했지?,,ReedField,Assets/Resources/Sprites/character/detective1.png,,
+형사2,그래. 조금만 더 늦었으면 아이가 정말 위험할 뻔 했어. 여긴 또 뭔데?,,ReedField,,Assets/Resources/Sprites/character/detective2.png,
+형사1,아이의 아빠 존. 형체를 알아볼 수 없을 정도야.,Assets/Resources/Sprites/etc/meet.png,ReedField,Assets/Resources/Sprites/character/detective1.png,,
+형사2,자신의 남편을 이렇게 살해하다니. 끔찍하군… 이제라도 잡게되서 다행이야.,,ReedField,,Assets/Resources/Sprites/character/detective2.png,
+형사1,"어릴적부터 가족들에게 폭행을 당하고, 큰 사고를 겪은 뒤로 빨간색에 대한 이상한 집착이 생긴 것 같아.",,ReedField,Assets/Resources/Sprites/character/detective1.png,,
+형사2,이 저택의 온전한 주인이 되고 싶었던가..?,,ReedField,,Assets/Resources/Sprites/character/detective2.png,
+형사1,글쎄… 이건 존의 시체 옆에서 발견된 편지야. 아무래도 아이까지 정말 죽일 생각이었던 것 같군.,,ReedField,Assets/Resources/Sprites/character/detective1.png,,
+수사 반장 로즈,에밀리. 엄마와의 탐정 놀이가 즐겁지 않았어? 다음번엔 꼭 아빠에게 탐정 역할을 맡겨주자꾸나. 에밀리. 엄마는 시끄러운 이곳이 너무나도 싫어.,Assets/Resources/Sprites/etc/letter.png,ReedField,,,
+수사 반장 로즈,"하지만, 에밀리가 없는 엄마의 시간은 온 세상이 멈춘 듯 고요하고, 슬프구나. 엄마와 함께 붉은 노을이 지는 길을 따라 아름다운 장미를 구경하러 가자. 에밀리가 사랑하는 엄마가…",Assets/Resources/Sprites/etc/letter.png,ReedField,,,
+형사2,이게 도대체 뭔 소리야…,,ReedField,,Assets/Resources/Sprites/character/detective2.png,
+형사1,"제정신이 아니야, 사형을 면할 수는 없겠어. 마을이 온통 붉게 물들지 않아 다행이군…",,ReedField,Assets/Resources/Sprites/character/detective1.png,,

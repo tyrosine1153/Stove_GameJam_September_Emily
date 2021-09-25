@@ -1,13 +1,13 @@
-Speaker,Content,Image,Place,LeftCharacter,RightCharacter
-수사 반장 로즈,"에밀리, 수고했구나.",,LivingRoom,,Rose
-꼬마 탐정 에밀리,거봐요~ 제가 걱정말라고 했죠!?,,LivingRoom,Emily,
-수사 반장 로즈,그래. 이젠 네가 나를 지켜줄 수 있겠구나.,,LivingRoom,,Rose
-꼬마 탐정 에밀리,그럼요!! 저는 탐정 에밀리잖아요!,,LivingRoom,Emily,
-수사 반장 로즈,"자만하지 마렴.  사건의 전말은 이러해, 정원사는 늘 붉은 꽃만을 가꿔왔어. 그의 죽은 아내 때문이지. ",,LivingRoom,,Rose
-수사 반장 로즈,"그녀는 늘 저 저택의 정원을 거닐며 꽃들과 마주하고, 이야기를 나누고 싶었다고 해. 하지만 저택 관리인 하버는, 정원사의 간절한 부탁을 단 한 번도 들어주지 않았지. ",,LivingRoom,,Rose
-수사 반장 로즈,"결국 그녀는 세상을 떠났고, 떠나간 그녀에게 아무것도 해주지 못한게 미안해 이런 일을 벌였더구나. ",,LivingRoom,,Rose
-꼬마 탐정 에밀리,흠… 전혀 할머니를 위한 선택이 아니었던 것 같아요. 그런데 할머니는 노란 프리지아 꽃을 좋아하지 않으셨나요??,,LivingRoom,Emily,
-수사 반장 로즈,에밀리. 이제 그만 돌아가 쉬자구나.,,LivingRoom,,Rose
-꼬마 탐정 에밀리,에이… 이제 더 제 일에 사명감을 갖고 빠르고! 정확한! 추리를 해낼 수 있을 것 같은데요!? 다른 사건은 없나요??,,LivingRoom,Emily,
-수사 반장 로즈,에밀리 빨리 오렴.,,LivingRoom,,Rose
-꼬마 탐정 에밀리,엄마 같이가요!!!,,LivingRoom,Emily,
+Speaker,Content,Image,Place,LeftCharacter,RightCharacter,Face
+수사 반장 로즈,"에밀리, 수고했구나.",,LivingRoom,,Assets/Resources/Sprites/character/rose_idle.png,무표정
+꼬마 탐정 에밀리,거봐요~ 제가 걱정말라고 했죠!?,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
+수사 반장 로즈,그래. 이젠 네가 나를 지켜줄 수 있겠구나.,,LivingRoom,,Assets/Resources/Sprites/character/rose_idle.png,무표정
+꼬마 탐정 에밀리,그럼요!! 저는 탐정 에밀리잖아요!,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
+수사 반장 로즈,"자만하지 마렴.  사건의 전말은 이러해, 정원사는 늘 붉은 꽃만을 가꿔왔어. 그의 죽은 아내 때문이지. ",,LivingRoom,,Assets/Resources/Sprites/character/rose_idle.png,무표정
+수사 반장 로즈,"그녀는 늘 저 저택의 정원을 거닐며 꽃들과 마주하고, 이야기를 나누고 싶었다고 해. 하지만 저택 관리인 하버는, 정원사의 간절한 부탁을 단 한 번도 들어주지 않았지. ",,LivingRoom,,Assets/Resources/Sprites/character/rose_notgood.png,심기불편
+수사 반장 로즈,"결국 그녀는 세상을 떠났고, 떠나간 그녀에게 아무것도 해주지 못한게 미안해 이런 일을 벌였더구나. ",,LivingRoom,,Assets/Resources/Sprites/character/rose_notgood.png,심기불편
+꼬마 탐정 에밀리,흠… 전혀 할머니를 위한 선택이 아니었던 것 같아요. 그런데 할머니는 노란 프리지아 꽃을 좋아하지 않으셨나요??,,LivingRoom,Assets/Resources/Sprites/character/emily_idle.png,,무표정
+수사 반장 로즈,에밀리. 이제 그만 돌아가 쉬자구나.,,LivingRoom,,Assets/Resources/Sprites/character/rose_idle.png,무표정
+꼬마 탐정 에밀리,에이… 이제 더 제 일에 사명감을 갖고 빠르고! 정확한! 추리를 해낼 수 있을 것 같은데요!? 다른 사건은 없나요??,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
+수사 반장 로즈,에밀리 빨리 오렴.,,LivingRoom,,Assets/Resources/Sprites/character/rose_smile.png,미소
+꼬마 탐정 에밀리,엄마 같이가요!!!,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
