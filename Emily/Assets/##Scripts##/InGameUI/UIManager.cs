@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,6 +11,11 @@ public class UIManager : Singleton<UIManager>
     public void ShowStory(StoryScriptableObject story)
     {
         storyManager.ShowStory(story);
+    }
+
+    public void ShowStory(StoryScriptableObject story, Action action)
+    {
+        storyManager.ShowStory(story, action);
     }
 
     public void ShowNextText(bool disableIfDone = true)
