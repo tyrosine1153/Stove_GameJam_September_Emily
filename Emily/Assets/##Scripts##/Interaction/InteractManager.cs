@@ -18,7 +18,7 @@ public class InteractManager : Singleton<InteractManager>
     {
         if (Input.GetMouseButton(0))
         {
-            if (currentInteractable && dragging)
+            if (currentInteractable == null && dragging)
             {
                 MouseDrag();
             }
@@ -26,14 +26,14 @@ public class InteractManager : Singleton<InteractManager>
             {
                 if (!flags)
                 {
-                    MouseDown();
                     flags = true;
+                    MouseDown();
                 }
             }
         }
         else if (!Input.GetMouseButton(0))
         {
-            if (dragging)
+            if (currentInteractable != null && dragging)
             {
                 MouseUp();
             }
