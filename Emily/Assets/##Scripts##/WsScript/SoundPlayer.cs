@@ -10,8 +10,6 @@ namespace ws
 
         void Start()
         {
-            print("Called");
-            // SoundManager.instance.StopBGM();
             SoundManager.instance.PlayBGM(songNumber);
         }
     }
