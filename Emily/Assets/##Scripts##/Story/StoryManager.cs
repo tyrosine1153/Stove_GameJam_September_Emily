@@ -62,7 +62,7 @@ public class StoryManager : MonoBehaviour
 
         try
         {
-            prologEndingStory = GameObject.Find("Prolog/EndingStory").GetComponent<PrologEndingStory>();
+            prologEndingStory = GameObject.Find("Prolog_EndingStory").GetComponent<PrologEndingStory>();
             switch (prologEndingStory.storyType)
             {
                 // Prolog
