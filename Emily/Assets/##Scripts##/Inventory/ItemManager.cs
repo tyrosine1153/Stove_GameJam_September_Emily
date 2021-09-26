@@ -6,7 +6,7 @@ public class ItemManager : Singleton<ItemManager>
 {
     public ItemListScriptableObject[] itemLists;
 
-    private Dictionary<string, Item> items = new Dictionary<string, Item>();
+    private Dictionary<string, Item> items;
 
     public Item GetItemById(string id)
     {
@@ -18,20 +18,24 @@ public class ItemManager : Singleton<ItemManager>
         return items[id];
     }
 
-    protected override void OnAwake()
-    {
-        foreach (var itemList in itemLists)
-        {
-            foreach (var item in itemList.items)
-            {
-                if (items.ContainsKey(item.Id))
-                {
+    public void Initlaize() {
+        items = new Dictionary<string, Item>();
+
+        foreach (var itemList in itemLists) {
+            foreach (var item in itemList.items) {
+                if (items.ContainsKey(item.Id)) {
                     Debug.LogAssertion(string.Format("item id '{0}' is duplicated", item.Id));
                     return;
                 }
 
+                item.UnMark();
                 items.Add(item.Id, item);
             }
         }
+    }
+
+    protected override void OnAwake()
+    {
+        Initlaize();
     }
 }

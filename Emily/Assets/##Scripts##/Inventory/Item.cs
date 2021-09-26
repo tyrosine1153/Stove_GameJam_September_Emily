@@ -26,4 +26,10 @@ public class Item {
         isMarked = !isMarked;
         OnMark.Invoke();
     }
+
+    public void UnMark()
+    {
+        isMarked = false;
+        OnMark.Invoke();
+    }
 };

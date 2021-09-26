@@ -395,6 +395,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0879d1561b74f944c9c1ac0d8b5fbc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 1
+  EffectTypeWhenInteract: 8
   draggable: 0
   interactType: 1
   itemId: item_reed_fields_evidence_hat
@@ -578,6 +580,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0879d1561b74f944c9c1ac0d8b5fbc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 1
+  EffectTypeWhenInteract: 8
   draggable: 0
   interactType: 1
   itemId: item_reed_fields_evidence_meat
@@ -801,6 +805,74 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1143889808047855341, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143889808047855341, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143889808047855341, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143889808047855341, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993084837569356249, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_Text
+      value: "\uAC70\uC2E4"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482204461694, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482204461694, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482204461694, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482204461694, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482296640418, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482296640418, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482296640418, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482296640418, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434483569722741, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434483569722741, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434483569722741, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434483569722741, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7821502743102426466, guid: 52f4007f5969813408320741126a5b09, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -1101,6 +1173,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0764f9471dd2be448b1e2028a45eff12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 0
+  EffectTypeWhenInteract: 0
   draggable: 0
   story: {fileID: 11400000, guid: 7de5fc3870bd418418977ca67a8761bf, type: 2}
 --- !u!50 &856010380
@@ -1776,6 +1850,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4da21f92044d1ab499defdde6a279cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 1
+  EffectTypeWhenInteract: 7
   draggable: 0
   interactType: 0
   itemId: item_reed_fields_perfect_reed
@@ -1930,6 +2006,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0879d1561b74f944c9c1ac0d8b5fbc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 0
+  EffectTypeWhenInteract: 0
   draggable: 0
   interactType: 0
   itemId: item_reed_fields_unperfect_reed
@@ -2129,6 +2207,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4da21f92044d1ab499defdde6a279cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 1
+  EffectTypeWhenInteract: 7
   draggable: 0
   interactType: 0
   itemId: item_reed_fields_evidence_eyes
@@ -2313,6 +2393,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0879d1561b74f944c9c1ac0d8b5fbc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 0
+  EffectTypeWhenInteract: 0
   draggable: 1
   interactType: 0
   itemId: item_reed_fields_scissor

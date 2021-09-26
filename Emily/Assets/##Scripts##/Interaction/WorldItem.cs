@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ws;
 
 public class WorldItem : Interactable
 {
@@ -45,6 +46,11 @@ public class WorldItem : Interactable
             return;
         }
 
+        if (IsPlayEffect)
+        {
+            SoundManager.instance.PlayEffectSound((int) EffectTypeWhenInteract);
+        }
+
         switch (interactType)
         {
             case WorldItemInteractType.Story:
@@ -66,8 +72,6 @@ public class WorldItem : Interactable
             default:
                 break;
         }
-
-        ws.SoundManager.instance.PlayEffectSound((int)ws.SoundName.effectSound);
 
         UpdateVisibility();
     }

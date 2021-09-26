@@ -62,14 +62,14 @@ public class StoryManager : MonoBehaviour
 
         try
         {
-            prologEndingStory = GameObject.Find("Prolog/EndingStory").GetComponent<PrologEndingStory>();
-            switch (prologEndingStory.StoryType)
+            prologEndingStory = GameObject.Find("Prolog_EndingStory").GetComponent<PrologEndingStory>();
+            switch (prologEndingStory.storyType)
             {
                 // Prolog
-                case 0:
+                case PrologEndingStory.StoryType.Prolog:
                     isProlog = true;
                     break;
-                case 1:
+                case PrologEndingStory.StoryType.Ending:
                     isEnding = true;
                     break;
                 default:
@@ -119,6 +119,10 @@ public class StoryManager : MonoBehaviour
                 }
                 else if (isEnding)
                 {
+                    // reset state
+                    ItemManager.instance.Initlaize();
+                    InventoryManager.instance.Initlaize();
+
                     prologEndingStory.EndingEnd();
                 }
                 else
@@ -158,13 +162,15 @@ public class StoryManager : MonoBehaviour
         {
             txtContent.text = "";
         }
-        else if (text.Content.Length < 1)
+        else if (text.Content.Length <= 1)
         {
             txtContent.text = text.Content[0];
         }
         else
         {
+            Debug.Log(text.Content.Length);
             var index = random.Next(0, text.Content.Length);
+            Debug.Log(index);
             txtContent.text = text.Content[index];
         }
 
