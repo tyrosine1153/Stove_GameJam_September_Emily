@@ -2259,6 +2259,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4683211021875347076, guid: b7d7ee79d8fea554199be91255eecf59, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4683211021875347076, guid: b7d7ee79d8fea554199be91255eecf59, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4683211022705297938, guid: b7d7ee79d8fea554199be91255eecf59, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4683211022705297938, guid: b7d7ee79d8fea554199be91255eecf59, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4683211022705297938, guid: b7d7ee79d8fea554199be91255eecf59, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4683211023181792361, guid: b7d7ee79d8fea554199be91255eecf59, type: 3}
       propertyPath: m_Name
       value: SettingUiCanvas
