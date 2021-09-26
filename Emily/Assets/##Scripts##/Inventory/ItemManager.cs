@@ -28,6 +28,7 @@ public class ItemManager : Singleton<ItemManager>
                     return;
                 }
 
+                item.UnMark();
                 items.Add(item.Id, item);
             }
         }
