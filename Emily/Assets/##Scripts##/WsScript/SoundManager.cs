@@ -112,7 +112,7 @@ namespace ws
         {
             effectAudioSource.clip = audioClips[soundNumber];
 
-            if (effectAudioSource.isPlaying) return;
+            // if (effectAudioSource.isPlaying) return;
             effectAudioSource.Play();
         }
     }
