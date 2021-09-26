@@ -602,7 +602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   draggable: 0
-  story: {fileID: 11400000, guid: 8302a5119c1021448b4fe0517a5c9d19, type: 2}
+  story: {fileID: 11400000, guid: bbd245ce3a7ffd841b3726b85773f56b, type: 2}
 --- !u!50 &543558614
 Rigidbody2D:
   serializedVersion: 4
