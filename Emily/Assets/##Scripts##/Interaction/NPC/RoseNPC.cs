@@ -18,16 +18,22 @@ public class RoseNPC : WorldNpc
 
     public override void Interact()
     {
+        if (UIManager.instance.IsStoryShowing)
+        {
+            return;
+        }
+
         if (InventoryManager.instance.Items.Count < EvidenceCount)
         {
-            if (story && !UIManager.instance.IsStoryShowing)
+            if (story)
             {
                 UIManager.instance.ShowStory(story);
             }
         }
         else
         {
-            if (storyForSelectScene) {
+            if (storyForSelectScene)
+            {
                 UIManager.instance.ShowStory(storyForSelectScene, () => SceneManagerEx.instance.LoadScene(SceneType.LastChoose));
             }
         }
