@@ -101,6 +101,8 @@ namespace ws
                 print($"same number {soundNumber}");
                 return;
             }
+            else StopBGM();
+
             nowClip = soundNumber;
 
             backgroundAudioSource.clip = audioClips[soundNumber];
