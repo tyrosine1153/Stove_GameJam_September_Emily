@@ -6,7 +6,7 @@ public class ItemManager : Singleton<ItemManager>
 {
     public ItemListScriptableObject[] itemLists;
 
-    private Dictionary<string, Item> items = new Dictionary<string, Item>();
+    private Dictionary<string, Item> items;
 
     public Item GetItemById(string id)
     {
@@ -20,6 +20,8 @@ public class ItemManager : Singleton<ItemManager>
 
     protected override void OnAwake()
     {
+        items = new Dictionary<string, Item>();
+
         foreach (var itemList in itemLists)
         {
             foreach (var item in itemList.items)
