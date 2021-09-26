@@ -63,7 +63,7 @@ MonoBehaviour:
     - "\uC790\uC2E0\uC758 \uB0A8\uD3B8\uC744 \uC774\uB807\uAC8C \uC0B4\uD574\uD558\uB2E4\uB2C8.
       \uB054\uCC0D\uD558\uAD70\u2026 \uC774\uC81C\uB77C\uB3C4 \uC7A1\uAC8C\uB418\uC11C
       \uB2E4\uD589\uC774\uC57C."
-    Image: {fileID: 0}
+    Image: {fileID: 21300000, guid: 74a81b9cf208ec042b57a093de95dc3c, type: 3}
     Place: 3
     LeftCharacter: {fileID: 0}
     RightCharacter: {fileID: 21300000, guid: 917506f8de1ff054fa9a1f811a5de9fa, type: 3}
@@ -101,7 +101,7 @@ MonoBehaviour:
       \uD0D0\uC815 \uC5ED\uD560\uC744 \uB9E1\uACA8\uC8FC\uC790\uAFB8\uB098. \uC5D0\uBC00\uB9AC.
       \uC5C4\uB9C8\uB294 \uC2DC\uB044\uB7EC\uC6B4 \uC774\uACF3\uC774 \uB108\uBB34\uB098\uB3C4
       \uC2EB\uC5B4."
-    Image: {fileID: 0}
+    Image: {fileID: 21300000, guid: b79f588b899fdf141a86d3951425aee7, type: 3}
     Place: 3
     LeftCharacter: {fileID: 0}
     RightCharacter: {fileID: 0}
@@ -113,7 +113,7 @@ MonoBehaviour:
       \uC9C0\uB294 \uAE38\uC744 \uB530\uB77C \uC544\uB984\uB2E4\uC6B4 \uC7A5\uBBF8\uB97C
       \uAD6C\uACBD\uD558\uB7EC \uAC00\uC790. \uC5D0\uBC00\uB9AC\uAC00 \uC0AC\uB791\uD558\uB294
       \uC5C4\uB9C8\uAC00\u2026"
-    Image: {fileID: 0}
+    Image: {fileID: 21300000, guid: b79f588b899fdf141a86d3951425aee7, type: 3}
     Place: 3
     LeftCharacter: {fileID: 0}
     RightCharacter: {fileID: 0}
