@@ -1,7 +1,7 @@
 Speaker,Content,Image,Place,LeftCharacter,RightCharacter
-꼬마 탐정 에밀리,여보세요..? 형사 아저씨?? 여기 대저택이에요.. 빨리…  빨리 와주세요….,,ReedField,Assets/Resources/Sprites/character/emily_amazed.png,
-수사 반장 로즈,에밀리!!! 에밀리!!!!!!!! 이리와 거기서!!!!,,ReedField,,Assets/Resources/Sprites/character/rose_front.png
-꼬마 탐정 에밀리,꺄아아아악!!!!!!,,ReedField,,,
+꼬마 탐정 에밀리,여보세요..? 형사 아저씨?? 여기 대저택이에요.. 빨리…  빨리 와주세요….,,,Assets/Resources/Sprites/character/emily_amazed.png,
+수사 반장 로즈,에밀리!!! 에밀리!!!!!!!! 이리와 거기서!!!!,,,,Assets/Resources/Sprites/character/rose_front.png
+꼬마 탐정 에밀리,꺄아아아악!!!!!!,,,,,
 형사1,아이는 병원으로 잘 이동했지?,,ReedField,Assets/Resources/Sprites/character/detective1.png,,
 형사2,그래. 조금만 더 늦었으면 아이가 정말 위험할 뻔 했어. 여긴 또 뭔데?,,ReedField,,Assets/Resources/Sprites/character/detective2.png,
 형사1,아이의 아빠 존. 형체를 알아볼 수 없을 정도야.,Assets/Resources/Sprites/etc/meet.png,ReedField,Assets/Resources/Sprites/character/detective1.png,,

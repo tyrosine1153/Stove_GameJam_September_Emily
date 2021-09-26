@@ -18,21 +18,21 @@ MonoBehaviour:
     - "\uC5EC\uBCF4\uC138\uC694..? \uD615\uC0AC \uC544\uC800\uC528?? \uC5EC\uAE30
       \uB300\uC800\uD0DD\uC774\uC5D0\uC694.. \uBE68\uB9AC\u2026  \uBE68\uB9AC \uC640\uC8FC\uC138\uC694\u2026."
     Image: {fileID: 0}
-    Place: 3
+    Place: 0
     LeftCharacter: {fileID: 21300000, guid: 8326a0a9e2985ab4cba9827c557b5974, type: 3}
     RightCharacter: {fileID: 0}
   - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
     Content:
     - "\uC5D0\uBC00\uB9AC!!! \uC5D0\uBC00\uB9AC!!!!!!!! \uC774\uB9AC\uC640 \uAC70\uAE30\uC11C!!!!"
     Image: {fileID: 0}
-    Place: 3
+    Place: 0
     LeftCharacter: {fileID: 0}
     RightCharacter: {fileID: 21300000, guid: dec202512a97ecb4399e6da2f5bd1c36, type: 3}
   - Speaker: "\uAF2C\uB9C8 \uD0D0\uC815 \uC5D0\uBC00\uB9AC"
     Content:
     - "\uAE84\uC544\uC544\uC544\uC545!!!!!!"
     Image: {fileID: 0}
-    Place: 3
+    Place: 0
     LeftCharacter: {fileID: 0}
     RightCharacter: {fileID: 0}
   - Speaker: "\uD615\uC0AC1"
