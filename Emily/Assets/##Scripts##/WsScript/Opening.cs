@@ -12,13 +12,12 @@ namespace ws
 
         public void StartButtonDown()
         {
-            SoundManager.instance.PlayEffectSound(1);
+            SoundManager.instance.PlayEffectSound((int)SoundName.effectSound);
             SceneManagerEx.instance.LoadScene(SceneType.Opening);
         }
 
         public void ExitButtonDown()
         {
-            SoundManager.instance.PlayEffectSound(1);
             Application.Quit();
         }
     }

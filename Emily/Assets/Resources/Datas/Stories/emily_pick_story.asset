@@ -19,5 +19,5 @@ MonoBehaviour:
       \uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD!?"
     Image: {fileID: 0}
     Place: 0
-    LeftCharacter: 0
-    RightCharacter: 0
+    LeftCharacter: {fileID: 0}
+    RightCharacter: {fileID: 0}
