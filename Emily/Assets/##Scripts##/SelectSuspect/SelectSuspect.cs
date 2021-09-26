@@ -36,38 +36,50 @@ public class SelectSuspect : MonoBehaviour
                 if(hit.collider.name == "emily_smile")
                 {
                     if(num == 1)
+                    {
                         isEnd = true;
+                    }
                     num = 1;
                     SceneManagerEx.instance.SetUserData(1);
-                    Debug.Log("1");
+                    Debug.Log((int)SceneManagerEx.instance.UserData);
                     
                 }
 
                 if(hit.collider.name == "redDress_Npc")
                 {
                     if(num == 2)
+                    {
                         isEnd = true;
+                    }
+
                     num = 2;
                     SceneManagerEx.instance.SetUserData(2);
-                    Debug.Log("2");
+                    Debug.Log((int)SceneManagerEx.instance.UserData);
                     
                 }
 
                 if(hit.collider.name == "rose_idle")
                 {
                     if(num == 3)
-                       isEnd = true;
+                    {
+                        isEnd = true;
+                    }
+
                     num = 3;
                     SceneManagerEx.instance.SetUserData(3);
+                    Debug.Log((int)SceneManagerEx.instance.UserData);
                     
                 }
 
                 if(hit.collider.name == "noin")
                 {
                     if(num == 4)
-                       isEnd = true;
+                    {
+                        isEnd = true;
+                    }
                     num = 4;
                     SceneManagerEx.instance.SetUserData(4);
+                    Debug.Log((int)SceneManagerEx.instance.UserData);
                     
                 }
                 isSelect = true;
@@ -79,7 +91,8 @@ public class SelectSuspect : MonoBehaviour
     }
 
     IEnumerator SetMouseOn(Suspect curSuspect)
-    {   curSuspect.isMouseOn = true;
+    {   
+        curSuspect.isMouseOn = true;
         yield return new WaitForSeconds(1f);
         curSuspect.isMouseOn = false;
 
