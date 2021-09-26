@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,7 +10,13 @@ namespace ws
         buttonDown = 1,
         effectSound = 2,
         ending = 3,
-        suspect = 4
+        suspect = 4,
+
+        effectChangeMap,
+        effectFall,
+        effectReedCut,
+        effectTaking,
+        effectWoodBroken,
     }
 
     public class SoundManager : Singleton<SoundManager>
@@ -26,6 +32,11 @@ namespace ws
                 "Sounds\\Effect",
                 "Sounds\\Ending",
                 "Sounds\\Suspect",
+                "Sounds\\Effects\\ChangeMap",
+                "Sounds\\Effects\\Fall",
+                "Sounds\\Effects\\ReedCut",
+                "Sounds\\Effects\\Taking",
+                "Sounds\\Effects\\WoodBroken",
 
             };
 

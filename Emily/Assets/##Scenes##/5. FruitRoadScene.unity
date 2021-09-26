@@ -617,6 +617,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4da21f92044d1ab499defdde6a279cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 1
+  EffectTypeWhenInteract: 6
   draggable: 0
   interactType: 0
   itemId: item_tree_fields_red_fruit
@@ -735,6 +737,70 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1143889808047855341, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143889808047855341, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143889808047855341, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143889808047855341, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482204461694, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482204461694, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482204461694, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482204461694, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482296640418, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482296640418, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482296640418, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434482296640418, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434483569722741, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434483569722741, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434483569722741, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7816434483569722741, guid: 52f4007f5969813408320741126a5b09, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7821502743102426466, guid: 52f4007f5969813408320741126a5b09, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -953,6 +1019,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4da21f92044d1ab499defdde6a279cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 0
+  EffectTypeWhenInteract: 0
   draggable: 0
   interactType: 0
   itemId: item_reed_fields_umbrella
@@ -1188,6 +1256,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0879d1561b74f944c9c1ac0d8b5fbc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 1
+  EffectTypeWhenInteract: 8
   draggable: 0
   interactType: 1
   itemId: item_reed_fields_evidence_ripped_umbrella
@@ -1514,6 +1584,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0764f9471dd2be448b1e2028a45eff12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 0
+  EffectTypeWhenInteract: 0
   draggable: 0
   story: {fileID: 11400000, guid: 6714d63311e41f043b33572d427f7c1c, type: 2}
 --- !u!50 &1157415196
@@ -1782,6 +1854,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0879d1561b74f944c9c1ac0d8b5fbc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 1
+  EffectTypeWhenInteract: 8
   draggable: 0
   interactType: 1
   itemId: item_tree_fields_evidence_red_fruit
@@ -1930,6 +2004,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0879d1561b74f944c9c1ac0d8b5fbc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 0
+  EffectTypeWhenInteract: 0
   draggable: 1
   interactType: 0
   itemId: item_tree_fields_branch_fall
@@ -2247,6 +2323,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0879d1561b74f944c9c1ac0d8b5fbc86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPlayEffect: 0
+  EffectTypeWhenInteract: 0
   draggable: 0
   interactType: 0
   itemId: item_tree_fields_orange

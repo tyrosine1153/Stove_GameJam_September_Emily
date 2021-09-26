@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using ws;
 
 public class TopBar : MonoBehaviour
 {
@@ -48,11 +49,13 @@ public class TopBar : MonoBehaviour
 
     public void PrevScene()
     {
+        SoundManager.instance.PlayEffectSound((int)SoundName.effectChangeMap);
         SceneManagerEx.instance.LoadPrevScene();
     }
 
     public void NextScene()
     {
+        SoundManager.instance.PlayEffectSound((int)SoundName.effectChangeMap);
         SceneManagerEx.instance.LoadNextScene();
     }
 

@@ -1,6 +1,7 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ws;
 
 public class BranchScript : MonoBehaviour
 {
@@ -30,6 +31,7 @@ public class BranchScript : MonoBehaviour
                 {
                     branch.SetActive(false);
                     isSelect = true;
+                    SoundManager.instance.PlayEffectSound((int)SoundName.effectWoodBroken);
                 }
             }
             

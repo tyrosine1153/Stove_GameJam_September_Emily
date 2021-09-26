@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using ws;
 
 /// <summary>
 /// 다른 아이탬이랑 부딛쳤을 때 타겟 아이템들을 마크한다
@@ -32,6 +33,10 @@ public class MarkWhenHitWorldItem : WorldItem
         if (!itemIdFilter.Contains(otherItem.itemId))
         {
             return;
+        }
+
+        if (IsPlayEffect) {
+            SoundManager.instance.PlayEffectSound((int)EffectTypeWhenInteract);
         }
 
         foreach (var itemId in targetItemIds)
