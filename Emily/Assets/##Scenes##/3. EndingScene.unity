@@ -232,7 +232,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de37f5cefea749d184f6a0385e8212cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dontDestroyOnLoad: 0
   StoryType: 1
   story: {fileID: 11400000, guid: 0848f8be7d8f54949a38a520bfd45a68, type: 2}
 --- !u!1001 &1049207494
@@ -527,7 +526,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1737723919
 Transform:
   m_ObjectHideFlags: 0
