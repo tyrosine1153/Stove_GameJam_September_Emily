@@ -1,22 +1,22 @@
-Speaker,Content,Image,Place,LeftCharacter,RightCharacter,Face
-신문,대저택 살인사건. J.의 대저택 관리인 하버‚ 싸늘한 주검으로 발견.,Assets/Resources/Sprites/etc/souce_paper.png,,,,
-꼬마 탐정 에밀리,출동! 출동! 사건 발생!,,,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
-수사 반장 로즈,에밀리‚ 여긴 네가 장난칠 곳이 아니야.,,,,Assets/Resources/Sprites/character/rose_notgood.png,심기불편
-꼬마 탐정 에밀리,반장님‚ 장난이라뇨!?,,,Assets/Resources/Sprites/character/emily_amazed.png,,놀람
-수사 반장 로즈,어서 돌아가. 여기서 뭘 알아낼 수 있을 것 같니?,,,,Assets/Resources/Sprites/character/rose_notgood.png,심기불편
-꼬마 탐정 에밀리,여긴 제가 제일 잘 아는 곳이잖아요! 이번엔 제가 반드시 범인을 찾아낼게요!,,,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
-수사 반장 로즈,에밀리… 여긴 너무 위험해. 여긴 우리가 하던 탐정 놀이를 할 곳이 아니야. 어서 돌아가렴.,,,,Assets/Resources/Sprites/character/rose_idle.png,무표정
-꼬마 탐정 에밀리,제가 도움이 될 수 있도록 허락해주세요! 네!? 감사합니다~~~,,,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
-수사 반장 로즈,에밀리!!! 하…,,,,Assets/Resources/Sprites/character/rose_notgood.png,심기불편
-꼬마 탐정 에밀리,이쪽?! 저쪽?! 어디부터 증거를 찾아볼까요~,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
-수사 반장 로즈,에밀리. 정말 이럴 거니? 날 방해하지 말고 어서 나가.,,LivingRoom,,Assets/Resources/Sprites/character/rose_notgood.png,심기불편
-꼬마 탐정 에밀리,반장님! 저의 추리 능력 그동안 보셨잖아요~ 빨리 시작해요!!,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
-꼬마 탐정 에밀리,반장님!!!!,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
-수사 반장 로즈,잘 들어 에밀리. 관리인 하버씨는 늘 이 저택을 엄격하게 관리해주셨어. 외부인에겐 더욱 엄격했지.,,LivingRoom,,Assets/Resources/Sprites/character/rose_idle.png,무표정
-꼬마 탐정 에밀리,그럼요! 그래서 이 아름다운 저택이 늘 아름답게 유지될 수 있지 않았겠어요!?,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
-수사 반장 로즈,목격자의 증언에 따르면 하버씨를 죽인 자는 마치 이 저택처럼 온몸이 붉었다지.,,LivingRoom,,Assets/Resources/Sprites/character/rose_idle.png,무표정
-꼬마 탐정 에밀리,온몸이 붉었다..? 하지만 하버씨는 독살을 당하지 않았나요??,,LivingRoom,Assets/Resources/Sprites/character/emily_closeeyes.png,,고민
-수사 반장 로즈,그래 맞아. 할 수 있겠니?,,LivingRoom,,Assets/Resources/Sprites/character/rose_idle.png,무표정
-꼬마 탐정 에밀리,음!!!!! 뭔지 알겠어요! 걱정 마세요!,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
-수사 반장 로즈,그래. 반드시 찾아서 나에게 먼저 가져오도록 해.,,LivingRoom,,Assets/Resources/Sprites/character/rose_idle.png,무표정
-꼬마 탐정 에밀리,걱정 마시라구요~~,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,,기쁨
+Speaker,Content,Image,Place,LeftCharacter,RightCharacter
+신문,대저택 살인사건. J.의 대저택 관리인 하버‚ 싸늘한 주검으로 발견.,Assets/Resources/Sprites/etc/souce_paper.png,,,
+꼬마 탐정 에밀리,출동! 출동! 사건 발생!,,,Assets/Resources/Sprites/character/emily_smile.png,
+수사 반장 로즈,에밀리‚ 여긴 네가 장난칠 곳이 아니야.,,,,Assets/Resources/Sprites/character/rose_notgood.png
+꼬마 탐정 에밀리,반장님‚ 장난이라뇨!?,,,Assets/Resources/Sprites/character/emily_amazed.png,
+수사 반장 로즈,어서 돌아가. 여기서 뭘 알아낼 수 있을 것 같니?,,,,Assets/Resources/Sprites/character/rose_notgood.png
+꼬마 탐정 에밀리,여긴 제가 제일 잘 아는 곳이잖아요! 이번엔 제가 반드시 범인을 찾아낼게요!,,,Assets/Resources/Sprites/character/emily_smile.png,
+수사 반장 로즈,에밀리… 여긴 너무 위험해. 여긴 우리가 하던 탐정 놀이를 할 곳이 아니야. 어서 돌아가렴.,,,,Assets/Resources/Sprites/character/rose_idle.png
+꼬마 탐정 에밀리,제가 도움이 될 수 있도록 허락해주세요! 네!? 감사합니다~~~,,,Assets/Resources/Sprites/character/emily_smile.png,
+수사 반장 로즈,에밀리!!! 하…,,,,Assets/Resources/Sprites/character/rose_notgood.png
+꼬마 탐정 에밀리,이쪽?! 저쪽?! 어디부터 증거를 찾아볼까요~,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,
+수사 반장 로즈,에밀리. 정말 이럴 거니? 날 방해하지 말고 어서 나가.,,LivingRoom,,Assets/Resources/Sprites/character/rose_notgood.png
+꼬마 탐정 에밀리,반장님! 저의 추리 능력 그동안 보셨잖아요~ 빨리 시작해요!!,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,
+꼬마 탐정 에밀리,반장님!!!!,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,
+수사 반장 로즈,잘 들어 에밀리. 관리인 하버씨는 늘 이 저택을 엄격하게 관리해주셨어. 외부인에겐 더욱 엄격했지.,,LivingRoom,,Assets/Resources/Sprites/character/rose_idle.png
+꼬마 탐정 에밀리,그럼요! 그래서 이 아름다운 저택이 늘 아름답게 유지될 수 있지 않았겠어요!?,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,
+수사 반장 로즈,목격자의 증언에 따르면 하버씨를 죽인 자는 마치 이 저택처럼 온몸이 붉었다지.,,LivingRoom,,Assets/Resources/Sprites/character/rose_idle.png
+꼬마 탐정 에밀리,온몸이 붉었다..? 하지만 하버씨는 독살을 당하지 않았나요??,,LivingRoom,Assets/Resources/Sprites/character/emily_closeeyes.png,
+수사 반장 로즈,그래 맞아. 할 수 있겠니?,,LivingRoom,,Assets/Resources/Sprites/character/rose_idle.png
+꼬마 탐정 에밀리,음!!!!! 뭔지 알겠어요! 걱정 마세요!,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,
+수사 반장 로즈,그래. 반드시 찾아서 나에게 먼저 가져오도록 해.,,LivingRoom,,Assets/Resources/Sprites/character/rose_idle.png
+꼬마 탐정 에밀리,걱정 마시라구요~~,,LivingRoom,Assets/Resources/Sprites/character/emily_smile.png,
