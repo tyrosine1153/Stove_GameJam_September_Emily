@@ -10,7 +10,9 @@ public class SelectSuspect : MonoBehaviour
     RaycastHit2D hit;
     Suspect curSuspect;
     Suspect prevSuspect;
-    bool isSelect = false;
+    public bool isSelect = false;
+    public int num = 0;
+    public bool isEnd = false;
 
     void Update()
     {
@@ -33,26 +35,40 @@ public class SelectSuspect : MonoBehaviour
             {
                 if(hit.collider.name == "emily_smile")
                 {
+                    if(num == 1)
+                        isEnd = true;
+                    num = 1;
                     SceneManagerEx.instance.SetUserData(1);
                     Debug.Log("1");
+                    
                 }
 
                 if(hit.collider.name == "redDress_Npc")
                 {
+                    if(num == 2)
+                        isEnd = true;
+                    num = 2;
                     SceneManagerEx.instance.SetUserData(2);
                     Debug.Log("2");
+                    
                 }
 
                 if(hit.collider.name == "rose_idle")
                 {
+                    if(num == 3)
+                       isEnd = true;
+                    num = 3;
                     SceneManagerEx.instance.SetUserData(3);
-                    Debug.Log("3");
+                    
                 }
 
                 if(hit.collider.name == "noin")
                 {
+                    if(num == 4)
+                       isEnd = true;
+                    num = 4;
                     SceneManagerEx.instance.SetUserData(4);
-                    Debug.Log("4");
+                    
                 }
                 isSelect = true;
                 curSuspect.isClick = true;
