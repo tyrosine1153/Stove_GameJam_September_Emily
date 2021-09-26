@@ -20,13 +20,13 @@ public class InteractManager : Singleton<InteractManager>
         {
             if (currentInteractable && dragging)
             {
-                OnMouseDrag();
+                MouseDrag();
             }
             else
             {
                 if (!flags)
                 {
-                    OnMouseDown();
+                    MouseDown();
                     flags = true;
                 }
             }
@@ -35,7 +35,7 @@ public class InteractManager : Singleton<InteractManager>
         {
             if (dragging)
             {
-                OnMouseUp();
+                MouseUp();
             }
 
             if (flags)
@@ -45,7 +45,7 @@ public class InteractManager : Singleton<InteractManager>
         }
     }
 
-    void OnMouseDown()
+    void MouseDown()
     {
         var camera = Camera.main;
         var screenToWorldPoint = camera.ScreenToWorldPoint(Input.mousePosition);
@@ -75,7 +75,7 @@ public class InteractManager : Singleton<InteractManager>
         }
     }
 
-    void OnMouseUp() {
+    void MouseUp() {
         if (currentInteractable == null)
         {
             return;
@@ -91,7 +91,7 @@ public class InteractManager : Singleton<InteractManager>
         dragging = false;
     }
 
-    void OnMouseDrag()
+    void MouseDrag()
     {
         if (Input.mousePosition == lastMousePosition)
         {
