@@ -119,6 +119,10 @@ public class StoryManager : MonoBehaviour
                 }
                 else if (isEnding)
                 {
+                    // reset state
+                    ItemManager.instance.Initlaize();
+                    InventoryManager.instance.Initlaize();
+
                     prologEndingStory.EndingEnd();
                 }
                 else

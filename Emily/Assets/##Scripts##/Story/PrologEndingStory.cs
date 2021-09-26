@@ -23,8 +23,8 @@ public class PrologEndingStory : MonoBehaviour
         }
         else if (storyType == StoryType.Ending)
         {
-            // endingType = (int)SceneManagerEx.instance.UserData;
-            currentStory = stories[endingType + 1];
+            endingType = (int) SceneManagerEx.instance.UserData;
+            currentStory = stories[endingType];
         }
 
         UIManager.instance.ShowStory(currentStory);
@@ -37,6 +37,6 @@ public class PrologEndingStory : MonoBehaviour
 
     public void EndingEnd()
     {
-        SceneManagerEx.instance.LoadScene(SceneType.Initialize);
+        SceneManagerEx.instance.LoadScene(SceneType.Menu);
     }
 }
