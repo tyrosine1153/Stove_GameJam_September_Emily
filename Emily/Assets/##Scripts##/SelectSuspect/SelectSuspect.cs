@@ -23,7 +23,11 @@ public class SelectSuspect : MonoBehaviour
 
             curSuspect = hit.collider.GetComponent<Suspect>(); //콜라이더 넣는건 별로인가욥?
         
-            StartCoroutine(SetMouseOn(curSuspect));
+            if(curSuspect != null)
+            {
+                StartCoroutine(SetMouseOn(curSuspect));
+            }
+            
 
             if(Input.GetMouseButtonDown(0))
             {
@@ -33,7 +37,7 @@ public class SelectSuspect : MonoBehaviour
                     Debug.Log("1");
                 }
 
-                if(hit.collider.name == "redDress_NPC")
+                if(hit.collider.name == "redDress_Npc")
                 {
                     SceneManagerEx.instance.SetUserData(2);
                     Debug.Log("2");
@@ -50,8 +54,8 @@ public class SelectSuspect : MonoBehaviour
                     SceneManagerEx.instance.SetUserData(4);
                     Debug.Log("4");
                 }
-                    isSelect = true;
-                    curSuspect.isClick = true;
+                isSelect = true;
+                curSuspect.isClick = true;
             }
         }
         
@@ -59,7 +63,7 @@ public class SelectSuspect : MonoBehaviour
 
     IEnumerator SetMouseOn(Suspect curSuspect)
     {   curSuspect.isMouseOn = true;
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(1f);
         curSuspect.isMouseOn = false;
     }
 }
