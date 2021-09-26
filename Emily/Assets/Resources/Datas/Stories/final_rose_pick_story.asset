@@ -20,5 +20,5 @@ MonoBehaviour:
       \uC5D0\uBC00\uB9AC. \uC9C4\uC9DC \uBC94\uC778\uC740 \uB204\uAD6C\uC9C0?"
     Image: {fileID: 0}
     Place: 0
-    LeftCharacter: 0
-    RightCharacter: 0
+    LeftCharacter: {fileID: 0}
+    RightCharacter: {fileID: 0}

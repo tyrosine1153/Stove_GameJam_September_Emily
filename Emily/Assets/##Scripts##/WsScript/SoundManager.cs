@@ -21,6 +21,7 @@ namespace ws
 
     public class SoundManager : Singleton<SoundManager>
     {
+        private int nowClip = -1;
         private AudioSource backgroundAudioSource;
         private AudioSource effectAudioSource;
 
@@ -52,10 +53,12 @@ namespace ws
             backgroundAudioSource = gameObject.AddComponent<AudioSource>();
             backgroundAudioSource.playOnAwake = true;
             backgroundAudioSource.loop = true;
+            backgroundAudioSource.volume = 0.5f;
 
             effectAudioSource = gameObject.AddComponent<AudioSource>();
             effectAudioSource.playOnAwake = false;
             effectAudioSource.loop = false;
+            effectAudioSource.volume = 0.5f;
 
             base.Awake();
         }
@@ -93,9 +96,15 @@ namespace ws
 
         public void PlayBGM(int soundNumber)
         {
+            if (nowClip == soundNumber)
+            {
+                print($"same number {soundNumber}");
+                return;
+            }
+            nowClip = soundNumber;
+
             backgroundAudioSource.clip = audioClips[soundNumber];
 
-            if (backgroundAudioSource.isPlaying) return;
             backgroundAudioSource.Play();
         }
 

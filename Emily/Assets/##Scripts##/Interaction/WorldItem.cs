@@ -73,6 +73,8 @@ public class WorldItem : Interactable
                 break;
         }
 
+        ws.SoundManager.instance.PlayEffectSound((int)ws.SoundName.effectSound);
+
         UpdateVisibility();
     }
 
