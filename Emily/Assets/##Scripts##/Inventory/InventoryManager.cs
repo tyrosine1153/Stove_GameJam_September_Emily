@@ -8,7 +8,7 @@ public class InventoryManager : Singleton<InventoryManager>
     public UnityEvent<Item> ItemAdded = new UnityEvent<Item>();
 
     public List<Item> Items { get { return items; } }
-    private List<Item> items = new List<Item>();
+    private List<Item> items;
 
     public void AddItem(Item item)
     {
@@ -19,5 +19,17 @@ public class InventoryManager : Singleton<InventoryManager>
 
         items.Add(item);
         ItemAdded.Invoke(item);
+    }
+
+    public void Initlaize()
+    {
+        items = new List<Item>();
+    }
+
+    protected override void OnAwake()
+    {
+        base.OnAwake();
+
+        Initlaize();
     }
 }
