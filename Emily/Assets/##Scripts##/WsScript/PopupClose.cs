@@ -9,7 +9,7 @@ namespace ws
         [SerializeField] private GameObject target;
         public void CloseButtonDown()
         {
-            SoundManager.instance.PlayEffectSound(1);
+            // SoundManager.instance.PlayEffectSound(1);
             target.SetActive(false);
         }
     }

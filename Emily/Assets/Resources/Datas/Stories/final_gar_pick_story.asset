@@ -18,5 +18,5 @@ MonoBehaviour:
     - "\uB124 \uC5C4\uB9C8\uAC00 \uC8FC\uBB38\uD55C \uAF43\uC774\uB098 \uAC00\uC838\uAC00!"
     Image: {fileID: 0}
     Place: 0
-    LeftCharacter: 0
-    RightCharacter: 0
+    LeftCharacter: {fileID: 0}
+    RightCharacter: {fileID: 0}

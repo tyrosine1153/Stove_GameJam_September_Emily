@@ -49,10 +49,9 @@ MonoBehaviour:
     RightCharacter: {fileID: 0}
   - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
     Content:
-    - "\uC5D0\uBC00\uB9AC"
-    - " \uB5BC\uC4F0\uC9C0 \uB9D0\uAC70\uB77C. \uC774\uC81C \uADF8\uB9CC\uD558\uACE0
-      \uC5C4\uB9C8 \uB9D0\uC744 \uB4E4\uC73C\uBA74 \uB0B4\uC77C \uB610 \uD0D0\uC815
-      \uB180\uC774 \uD574\uC904\uAC8C."
+    - "\uC5D0\uBC00\uB9AC\u201A \uB5BC\uC4F0\uC9C0 \uB9D0\uAC70\uB77C. \uC774\uC81C
+      \uADF8\uB9CC\uD558\uACE0 \uC5C4\uB9C8 \uB9D0\uC744 \uB4E4\uC73C\uBA74 \uB0B4\uC77C
+      \uB610 \uD0D0\uC815 \uB180\uC774 \uD574\uC904\uAC8C."
     Image: {fileID: 0}
     Place: 1
     LeftCharacter: {fileID: 0}
@@ -66,9 +65,8 @@ MonoBehaviour:
     RightCharacter: {fileID: 0}
   - Speaker: "\uC218\uC0AC \uBC18\uC7A5 \uB85C\uC988"
     Content:
-    - "\uC5D0\uBC00\uB9AC"
-    - " \uC7A0\uC2DC \uC58C\uC804\uD788 \uAE30\uB2E4\uB9AC\uACE0 \uC788\uAC70\uB77C.
-      \uAE08\uBC29 \uAC14\uB2E4 \uC62C\uAC8C."
+    - "\uC5D0\uBC00\uB9AC\u201A \uC7A0\uC2DC \uC58C\uC804\uD788 \uAE30\uB2E4\uB9AC\uACE0
+      \uC788\uAC70\uB77C. \uAE08\uBC29 \uAC14\uB2E4 \uC62C\uAC8C."
     Image: {fileID: 0}
     Place: 1
     LeftCharacter: {fileID: 0}

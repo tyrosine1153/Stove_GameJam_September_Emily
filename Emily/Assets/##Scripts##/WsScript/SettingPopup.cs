@@ -14,7 +14,7 @@ namespace ws
         [SerializeField] private Slider volumeController;
         public void SettingsButtonDown()
         {
-            SoundManager.instance.PlayEffectSound(1);
+            // SoundManager.instance.PlayEffectSound(1);
             settingsPopupScreen.SetActive(true);
             UpdateVolumeController();
         }
@@ -28,9 +28,8 @@ namespace ws
         private void SoundInitialize()
         {
             volumeController.onValueChanged.AddListener(VolumeChanged);
-            SoundManager.instance.SetSoundValue(0.5f);
-            SoundManager.instance.PlayBGM(0);
         }
+
         public void VolumeChanged(float value)
         {
             ChangeVolumeText(value);
