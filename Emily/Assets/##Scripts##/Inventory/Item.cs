@@ -30,6 +30,6 @@ public class Item {
     public void UnMark()
     {
         isMarked = false;
-        OnMark.Invoke();
+        // OnMark.Invoke();
     }
 };

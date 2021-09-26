@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
@@ -9,8 +9,8 @@ namespace ws
     {
         public void GoToMainButtonDown()
         {
-            ItemManager.instance.Initlaize();
             InventoryManager.instance.Initlaize();
+            ItemManager.instance.Initlaize();
 
             SceneManagerEx.instance.LoadScene(SceneType.Menu);
         }
