@@ -7,6 +7,7 @@ public class PickNPC : WorldNpc
     public StoryScriptableObject storyForSelectScene;
 
     public SelectSuspect selS;
+
     public override void Interact()
     {
         

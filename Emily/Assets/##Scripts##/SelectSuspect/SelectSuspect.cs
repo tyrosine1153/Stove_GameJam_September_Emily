@@ -72,6 +72,7 @@ public class SelectSuspect : MonoBehaviour
                 }
                 isSelect = true;
                 curSuspect.isClick = true;
+                
             }
         }
         
@@ -81,5 +82,6 @@ public class SelectSuspect : MonoBehaviour
     {   curSuspect.isMouseOn = true;
         yield return new WaitForSeconds(1f);
         curSuspect.isMouseOn = false;
+
     }
 }
